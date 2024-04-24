@@ -12,7 +12,7 @@ export default function Navbar() {
     <>
       <div className="navbar">
         <div className="logo">
-          <a href="#">
+          <a href="/">
             {" "}
             <img src="../src/assets/logo/logo.jpg" alt="" />
           </a>

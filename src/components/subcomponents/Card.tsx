@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 
 export type Props = {
-  id: string;
+  page_path: string;
   imgUrl: string;
   price: string;
   description: string;
 };
 
-export default function Card({ id, imgUrl, price, description }: Props) {
+export default function Card({ page_path, imgUrl, price, description }: Props) {
   return (
     <>
       <div className="card">
@@ -23,7 +23,7 @@ export default function Card({ id, imgUrl, price, description }: Props) {
           </div>
           <div className="box-button">
             <button>
-              <Link to={`properties/${id}`}>More Info</Link>
+              <Link to={page_path}>More Info</Link>
             </button>
           </div>
         </div>

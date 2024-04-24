@@ -16,7 +16,7 @@ function App() {
           <SectionCard title={"Cumbuco"} />
           <div className="section-cards">
             <Card
-              id={"CV7500"}
+              page_path={"/CV7500"}
               imgUrl={
                 "../src/assets/image/CV7500/Imagem do WhatsApp de 2023-02-02 à(s) .jpg"
               }
@@ -26,7 +26,7 @@ function App() {
               }
             />
             <Card
-              id={"CJ1000"}
+              page_path={"/CJ1000"}
               imgUrl={
                 "../src/assets/image/CJ1000/23d96d86-fa05-4926-8c8b-2617f6b34b7e.jpeg"
               }
@@ -36,7 +36,7 @@ function App() {
               }
             />
             <Card
-              id={"CV4400"}
+              page_path={"/CV4400"}
               imgUrl={"../src/assets/image/CV4400/IMG_0060.JPG"}
               price={"490.000"}
               description={
@@ -46,7 +46,7 @@ function App() {
           </div>
           <div className="section-cards">
             <Card
-              id={"C1616"}
+              page_path={"/C1616"}
               imgUrl={
                 "../src/assets/image/C1616/WhatsApp Image 2023-07-20 at 11.34.20.jpeg"
               }
@@ -56,13 +56,13 @@ function App() {
               }
             />
             <Card
-              id={"C1617"}
+              page_path={"/C1617"}
               imgUrl={"../src/assets/image/C1617.jpg"}
               price={"400.000"}
               description={"Lot of 820 m2 behind C1616."}
             />
             <Card
-              id={"Cc1100"}
+              page_path={"/Cc1100"}
               imgUrl={
                 "../src/assets/image/Cc1100/WhatsApp Image 2022-04-26 at 16.15.20.jpeg"
               }
@@ -74,7 +74,7 @@ function App() {
           </div>
           <div className="section-cards">
             <Card
-              id={"C4278"}
+              page_path={"/C4278"}
               imgUrl={"../src/assets/image/C4278.jpg"}
               price={"6.053.000"}
               description={
@@ -82,7 +82,7 @@ function App() {
               }
             />
             <Card
-              id={"CB2030"}
+              page_path={"/CB2030"}
               imgUrl={
                 "../src/assets/image/CB2030/Penthouse and Cumbuco Beach Apartments 046.jpg"
               }
@@ -92,7 +92,7 @@ function App() {
               }
             />
             <Card
-              id={"CB1000"}
+              page_path={"/CB1000"}
               imgUrl={
                 "../src/assets/image/CB1000/WhatsApp Image 2024-01-15 at 11.45.08.jpeg"
               }
@@ -106,7 +106,7 @@ function App() {
           <SectionCard title={"Tabuba"} />
           <div className="section-cards">
             <Card
-              id={"TB2515"}
+              page_path={"/TB2515"}
               imgUrl={
                 "../src/assets/image/TB2515/IMG_20170607_171916 (Custom).jpg"
               }
@@ -116,7 +116,7 @@ function App() {
               }
             />
             <Card
-              id={"TB2024"}
+              page_path={"/TB2024"}
               imgUrl={
                 "../src/assets/image/TB2024/WhatsApp Image 2024-02-27 at 13.06.03 (1).jpeg"
               }
@@ -126,7 +126,7 @@ function App() {
               }
             />
             <Card
-              id={"TB3151"}
+              page_path={"/TB3151"}
               imgUrl={
                 "../src/assets/image/TB3151/WhatsApp Image 2022-12-22 at 14.01.39.jpeg"
               }
@@ -139,7 +139,7 @@ function App() {
           <SectionCard title={"Icaraí"} />
           <div className="section-cards">
             <Card
-              id={"IC3200"}
+              page_path={"/IC3200"}
               imgUrl={
                 "../src/assets/image/IC3200/WhatsApp Image 2022-03-03 at 13.57.04.jpeg"
               }
@@ -152,7 +152,7 @@ function App() {
           <SectionCard title={"Cauipe"} />
           <div className="section-cards">
             <Card
-              id={"c1500"}
+              page_path={"/c1500"}
               imgUrl={"../src/assets/image/c1500.jpg"}
               price={"1.500.000"}
               description={
