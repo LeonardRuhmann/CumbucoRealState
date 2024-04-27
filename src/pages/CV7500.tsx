@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import db from "../../database/db";
+import db from "../database/db";
 
 export default function CV7500() {
   return (
