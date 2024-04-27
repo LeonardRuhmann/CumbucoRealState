@@ -1,7 +1,10 @@
-export default function CJ1000() {
+import React from "react";
+import db from "../../database/db";
+export default function Tony() {
   return (
     <>
-      <h1>CJ1000</h1>
+      <h1>{db.CV7500.name}</h1>
+      <img src={db.CV7500.imgUrl} alt="" />
     </>
   );
 }

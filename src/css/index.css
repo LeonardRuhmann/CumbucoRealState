@@ -360,4 +360,23 @@ body {
   font-family: "Open Sans", serif;
 }
 
+.properties-content {
+  width: 100%;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+}
+.properties-content .properties-title {
+  border: 2px solid blue;
+  width: 100%;
+}
+.properties-content .properties-carrousel {
+  width: 100%;
+  border: 2px solid yellow;
+}
+.properties-content .properties-carrousel img {
+  width: 45%;
+}
+
 /*# sourceMappingURL=index.css.map */

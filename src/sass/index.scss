@@ -387,3 +387,23 @@ body {
     }
   }
 }
+
+// Essa estilização abaixo é para a página properties
+.properties-content {
+  width: 100%;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  .properties-title {
+    border: 2px solid blue;
+    width: 100%;
+  }
+  .properties-carrousel {
+    width: 100%;
+    border: 2px solid yellow;
+    img {
+      width: 45%;
+    }
+  }
+}

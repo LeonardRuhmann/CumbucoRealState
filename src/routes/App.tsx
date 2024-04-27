@@ -1,9 +1,9 @@
-import { useContext } from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import SectionCard from "../components/SectionCard";
 import Card from "../components/subcomponents/Card";
 import "../css/index.css";
+import db from "../../database/db";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <SectionCard title={"Cumbuco"} />
           <div className="section-cards">
             <Card
-              page_path={"/CV7500"}
+              page_path={`/${db.CV7500.name}`}
               imgUrl={
                 "../src/assets/image/CV7500/Imagem do WhatsApp de 2023-02-02 à(s) .jpg"
               }

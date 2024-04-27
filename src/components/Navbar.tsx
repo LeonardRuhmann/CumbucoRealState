@@ -13,7 +13,6 @@ export default function Navbar() {
       <div className="navbar">
         <div className="logo">
           <a href="/">
-            {" "}
             <img src="../src/assets/logo/logo.jpg" alt="" />
           </a>
         </div>
