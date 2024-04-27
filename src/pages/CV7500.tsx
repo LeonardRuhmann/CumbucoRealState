@@ -1,6 +1,8 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import db from "../database/db";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 
 export default function CV7500() {
   return (
@@ -12,18 +14,23 @@ export default function CV7500() {
           <div className="properties-title">
             <h1>{db.CV7500.name}</h1>
           </div>
-          <div className="properties-carrousel">
-            <div className="carrousel-buttons">
-              <button className="carrousel-button-previous">Previous</button>
-              <button className="carrousel-button-next">Next</button>
-            </div>
-            <img
-              src="../src/assets/image/CV7500/IMG-20190320-WA0003.jpg"
-              alt=""
-            />
+          {/* Area Reservada para o Carrousel */}
+          <div style={{ width: "300px" }}>
+            <Carousel autoPlay={true}>
+              <div>
+                <img src="..\src\assets\image\CV7500\Imagem do WhatsApp de 2023-02-02 à(s) .jpg" />
+              </div>
+              <div>
+                <img src="..\src\assets\image\CV7500\Imagem do WhatsApp de 2023-02-02 à(s) .jpg" />
+              </div>
+              <div>
+                <img src="..\src\assets\image\CV7500\Imagem do WhatsApp de 2023-02-02 à(s) .jpg" />
+              </div>
+            </Carousel>
           </div>
+
           <div className="properties-price">
-            <h1>850.000</h1>
+            <h1>{db.CV7500.price}</h1>
           </div>
           <div className="properties-adress">
             <p>
@@ -32,10 +39,7 @@ export default function CV7500() {
             </p>
           </div>
           <div className="properties-description">
-            <p>
-              Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing
-              elit. Sunt,
-            </p>
+            <p>{db.CV7500.description}</p>
           </div>
         </div>
         <div className="properties-spaces">
