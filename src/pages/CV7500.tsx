@@ -1,7 +1,6 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import db from "../database/db";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 export default function CV7500() {
   return (
@@ -13,8 +12,114 @@ export default function CV7500() {
           <div className="properties-title">
             <h1>{db.CV7500.name}</h1>
           </div>
-          <div className="properties-carrousel">
-            <div className="properties-container"></div>
+          <div className="properties-images">
+            <div className="properties-container">
+              <div
+                style={{
+                  backgroundImage:
+                    "url(../src/assets//image/CV7500/IMG-20190320-WA0004.jpg",
+                }}
+                className="properties-grid"
+              ></div>
+              <div
+                style={{
+                  height: "171.8%",
+                  backgroundImage:
+                    "url(../src/assets/image/CV7500/quintal.jpeg",
+                }}
+                className="properties-grid"
+              ></div>
+              <div
+                style={{
+                  backgroundImage:
+                    "url(../src/assets//image/CV7500/sala-de-estar.jpeg",
+                }}
+                className="properties-grid"
+              >
+                {/* <img src="../src/assets/image/CV7500/1a.jpg" alt="" /> */}
+              </div>
+            </div>
+            <div className="properties-container">
+              <div
+                style={{
+                  backgroundImage:
+                    "url(../src/assets//image/CV7500/IMG-20190320-WA0004.jpg",
+                }}
+                className="properties-grid"
+              ></div>
+              <div
+                style={{
+                  height: "171.8%",
+                  backgroundImage:
+                    "url(../src/assets/image/CV7500/quintal.jpeg",
+                }}
+                className="properties-grid"
+              ></div>
+              <div
+                style={{
+                  backgroundImage:
+                    "url(../src/assets//image/CV7500/sala-de-estar.jpeg",
+                }}
+                className="properties-grid"
+              >
+                {/* <img src="../src/assets/image/CV7500/1a.jpg" alt="" /> */}
+              </div>
+            </div>
+          </div>
+
+          <div className="properties-images">
+            <div className="properties-container">
+              <div
+                style={{
+                  backgroundImage:
+                    "url(../src/assets//image/CV7500/IMG-20190320-WA0004.jpg",
+                }}
+                className="properties-grid"
+              ></div>
+              <div
+                style={{
+                  height: "171.8%",
+                  backgroundImage:
+                    "url(../src/assets/image/CV7500/quintal.jpeg",
+                }}
+                className="properties-grid"
+              ></div>
+              <div
+                style={{
+                  backgroundImage:
+                    "url(../src/assets//image/CV7500/sala-de-estar.jpeg",
+                }}
+                className="properties-grid"
+              >
+                {/* <img src="../src/assets/image/CV7500/1a.jpg" alt="" /> */}
+              </div>
+            </div>
+            <div className="properties-container">
+              <div
+                style={{
+                  backgroundImage:
+                    "url(../src/assets//image/CV7500/IMG-20190320-WA0004.jpg",
+                }}
+                className="properties-grid"
+              ></div>
+              <div
+                style={{
+                  height: "171.8%",
+                  backgroundImage:
+                    "url(../src/assets//image/CV7500/quintal.jpeg",
+                }}
+                className="properties-grid"
+              ></div>
+              <div
+                style={{
+                  backgroundImage:
+                    "url(../src/assets//image/CV7500/sala-de-estar.jpeg",
+                }}
+                className="properties-grid"
+              >
+                {/* <img src="../src/assets/image/CV7500/1a.jpg" alt="" /> */}
+              </div>
+            </div>
           </div>
 
           <div className="properties-price">
