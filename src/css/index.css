@@ -312,8 +312,7 @@ body {
   text-decoration: none;
   color: white;
   font-family: "Open Sans", serif;
-  font-size: 130%;
-  margin-left: 4%;
+  font-size: 85%;
 }
 .footer .footer-informations .footer-informations-links a:hover {
   transform: scale(1.2);
@@ -341,7 +340,6 @@ body {
   color: white;
   font-family: "Open Sans", serif;
   font-size: 130%;
-  margin-right: 4%;
 }
 .footer .footer-informations .footer-informations-contacts a:hover {
   transform: scale(1.1);
