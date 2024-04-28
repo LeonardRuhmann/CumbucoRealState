@@ -2,7 +2,6 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import db from "../database/db";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
 
 export default function CV7500() {
   return (
@@ -14,19 +13,8 @@ export default function CV7500() {
           <div className="properties-title">
             <h1>{db.CV7500.name}</h1>
           </div>
-          {/* Area Reservada para o Carrousel */}
-          <div style={{ width: "300px" }}>
-            <Carousel autoPlay={true}>
-              <div>
-                <img src="..\src\assets\image\CV7500\Imagem do WhatsApp de 2023-02-02 à(s) .jpg" />
-              </div>
-              <div>
-                <img src="..\src\assets\image\CV7500\Imagem do WhatsApp de 2023-02-02 à(s) .jpg" />
-              </div>
-              <div>
-                <img src="..\src\assets\image\CV7500\Imagem do WhatsApp de 2023-02-02 à(s) .jpg" />
-              </div>
-            </Carousel>
+          <div className="properties-carrousel">
+            <div className="properties-container"></div>
           </div>
 
           <div className="properties-price">

@@ -4,6 +4,14 @@ export default {
     imgUrl:
       "../src/assets/image/CV7500/Imagem do WhatsApp de 2023-02-02 à(s) .jpg",
     price: "850.000",
+    IMG: [
+      "../src/assets/image/CV7500/w1.jpg",
+      "../src/assets/image/CV7500/w2.jpg",
+      "../src/assets/image/CV7500/IMG-20190320-WA0004.jpg",
+      "../src/assets/image/CV7500/IMG_20171031_110608.jpg",
+      "../src/assets/image/CV7500/WhatsApp Image 2020-08-06 at 06.43.39.jpeg",
+    ],
+
     description:
       "Beachfront 2 bedroom apartment on the ground floor in Verandas do Mar, includes a 20 m² garden.",
   },

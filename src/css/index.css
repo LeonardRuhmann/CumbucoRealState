@@ -76,7 +76,7 @@ body {
   position: absolute;
   right: 0%;
   top: 99.5%;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.61);
   border-radius: 0px 0px 4px 4px;
   padding-inline: 2%;
   list-style: none;
@@ -273,7 +273,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 300px;
   background-color: rgb(37, 83, 143);
 }
 .footer .footer-title {
@@ -297,15 +296,17 @@ body {
 .footer .footer-informations {
   display: flex;
   width: 100%;
-  height: 84%;
+  flex-direction: column;
+  align-items: center;
 }
 .footer .footer-informations .footer-informations-links {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: start;
   justify-content: space-around;
   width: 50%;
   height: 100%;
+  padding-bottom: 1%;
 }
 .footer .footer-informations .footer-informations-links a {
   text-decoration: none;
@@ -323,11 +324,12 @@ body {
 }
 .footer .footer-informations .footer-informations-contacts {
   display: flex;
-  flex-direction: column;
-  align-items: end;
+  flex-direction: row;
+  align-items: start;
   justify-content: space-around;
   width: 50%;
   height: 100%;
+  padding-block: 1%;
 }
 .footer .footer-informations .footer-informations-contacts a {
   display: flex;
@@ -363,14 +365,23 @@ body {
 
 .properties-content {
   width: 100%;
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   height: 50%;
 }
 .properties-content .properties-title {
-  border: 2px solid blue;
   width: 100%;
+}
+.properties-content .properties-carrousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+  height: 500px;
+  width: 100%;
+}
+.properties-content .properties-carrousel .properties-container {
+  width: 50%;
 }
 
 /*# sourceMappingURL=index.css.map */
