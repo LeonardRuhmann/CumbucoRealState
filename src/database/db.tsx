@@ -9,18 +9,18 @@ export default {
     BackgroundIMG: [
       {
         topleft: "url(../src/assets//image/CV7500/IMG-20190320-WA0004.jpg",
-        rightcolumn: "url(../src/assets/image/CV7500/quintal.jpeg",
-        downleft: "url(../src/assets//image/CV7500/sala-de-estar.jpeg",
+        rightcolumn: "url(../src/assets//image/CV7500/sala-de-estar.jpeg",
+        downleft: "url(../src/assets/image/CV7500/quintal.jpeg",
       },
       {
-        topleft: "url(../src/assets//image/CV7500/IMG-20190320-WA0004.jpg",
-        rightcolumn: "url(../src/assets/image/CV7500/quintal.jpeg",
-        downleft: "url(../src/assets//image/CV7500/sala-de-estar.jpeg",
+        topleft: "url(../src/assets//image/CV7500/praia-piscina.jpg",
+        rightcolumn: "url(../src/assets/image/CV7500/kitchen.jpeg",
+        downleft: "url(../src/assets//image/CV7500/yard.jpeg",
       },
       {
-        topleft: "url(../src/assets//image/CV7500/IMG-20190320-WA0004.jpg",
-        rightcolumn: "url(../src/assets/image/CV7500/quintal.jpeg",
-        downleft: "url(../src/assets//image/CV7500/sala-de-estar.jpeg",
+        topleft: "url(../src/assets//image/CV7500/",
+        rightcolumn: "url(../src/assets/image/CV7500/",
+        downleft: "url(../src/assets//image/CV7500/",
       },
     ],
     description:

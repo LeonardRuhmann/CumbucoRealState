@@ -7,23 +7,26 @@ export default function CV7500() {
   return (
     <>
       <Navbar></Navbar>
-      {/* Nesse código a única classe herdada é a classe main */}
       <div className="main">
         <div className="properties-content">
           <div className="properties-title">
             <h1>{db.CV7500.name}</h1>
           </div>
           <div className="properties-images">
-            <LayoutImages
-              img1={db.CV7500.BackgroundIMG.topleft}
-              img2={db.CV7500.BackgroundIMG.rightcolumn}
-              img3={db.CV7500.BackgroundIMG.downleft}
-            />
-            <LayoutImages
+            {db.CV7500.BackgroundIMG.map((item, index) => (
+              <LayoutImages
+                key={index}
+                img1={item.topleft}
+                img2={item.rightcolumn}
+                img3={item.downleft}
+              />
+            ))}
+
+            {/* <LayoutImages
               img1={db.CV7500.BackgroundIMG[0].topleft}
               img2={db.CV7500.BackgroundIMG[0].downleft}
               img3={db.CV7500.BackgroundIMG[0].rightcolumn}
-            />
+            /> */}
           </div>
 
           <div className="properties-images">
