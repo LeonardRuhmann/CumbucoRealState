@@ -7,44 +7,36 @@ export default {
     // o arquivo CV7500 para renderizar no front
     BackgroundIMG: [
       {
+        // topleft is 350x261
         topleft: "url(../src/assets//image/CV7500/pool-beach.jpg",
+        //  rightcolumn is 228x451
         rightcolumn: "url(../src/assets/image/CV7500/quintal.jpeg",
+        // downleft is 360x179
         downleft: "url(../src/assets//image/CV7500/sala-de-estar.jpeg",
       },
       {
+        // topleft is 350x261
         topleft: "url(../src/assets//image/CV7500/praia-piscina.jpg",
+        //  rightcolumn is 228x451
         rightcolumn: "url(../src/assets/image/CV7500/kitchen.jpeg",
+        // downleft is 360x179
         downleft: "url(../src/assets//image/CV7500/yard.jpeg",
       },
       {
+        // topleft is 350x261
         topleft: "url(../src/assets//image/CV7500/beach.jpg",
-        rightcolumn: "url(../src/assets/image/CV7500/",
+        // rightcolumn is 228x451
+        // rightcolumn: ,
+        // downleft is 360x179
         downleft: "url(../src/assets//image/CV7500/deck.jpg",
       },
       {
+        // topleft is 350x261
         topleft: "url(../src/assets//image/CV7500/room.jpeg",
-        rightcolumn: "url(../src/assets/image/CV7500/",
+        // rightcolumn is 228x451
+        // rightcolumn: "url(../src/assets/image/CV7500/",
+        // downleft is 360x179
         downleft: "url(../src/assets//image/CV7500/room1.jpeg",
-      },
-      {
-        topleft: "url(../src/assets//image/CV7500/",
-        rightcolumn: "url(../src/assets/image/CV7500/",
-        downleft: "url(../src/assets//image/CV7500/",
-      },
-      {
-        topleft: "url(../src/assets//image/CV7500/",
-        rightcolumn: "url(../src/assets/image/CV7500/",
-        downleft: "url(../src/assets//image/CV7500/",
-      },
-      {
-        topleft: "url(../src/assets//image/CV7500/",
-        rightcolumn: "url(../src/assets/image/CV7500/",
-        downleft: "url(../src/assets//image/CV7500/",
-      },
-      {
-        topleft: "url(../src/assets//image/CV7500/",
-        rightcolumn: "url(../src/assets/image/CV7500/",
-        downleft: "url(../src/assets//image/CV7500/",
       },
     ],
     description:
