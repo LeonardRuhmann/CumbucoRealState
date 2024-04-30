@@ -21,18 +21,12 @@ export default function CV7500() {
                 img3={item.downleft}
               />
             ))}
-
-            {/* <LayoutImages
-              img1={db.CV7500.BackgroundIMG[0].topleft}
-              img2={db.CV7500.BackgroundIMG[0].downleft}
-              img3={db.CV7500.BackgroundIMG[0].rightcolumn}
-            /> */}
           </div>
 
-          <div className="properties-images">
+          {/* <div className="properties-images">
             <LayoutImages />
             <LayoutImages />
-          </div>
+          </div> */}
 
           <div className="properties-price">
             <h1>{db.CV7500.price}</h1>

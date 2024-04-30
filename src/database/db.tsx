@@ -1,21 +1,45 @@
 export default {
   CV7500: {
     name: "CV7500",
-    imgUrl:
-      "../src/assets/image/CV7500/Imagem do WhatsApp de 2023-02-02 à(s) .jpg",
+    imgUrl: "../src/assets/image/CV7500/pool-beach.jpg",
     price: "850.000",
     // Em BackgroundIMG é preciso passar o path da imagem com o "url", pois será enviado para
     // o arquivo CV7500 para renderizar no front
     BackgroundIMG: [
       {
-        topleft: "url(../src/assets//image/CV7500/IMG-20190320-WA0004.jpg",
-        rightcolumn: "url(../src/assets//image/CV7500/sala-de-estar.jpeg",
-        downleft: "url(../src/assets/image/CV7500/quintal.jpeg",
+        topleft: "url(../src/assets//image/CV7500/pool-beach.jpg",
+        rightcolumn: "url(../src/assets/image/CV7500/quintal.jpeg",
+        downleft: "url(../src/assets//image/CV7500/sala-de-estar.jpeg",
       },
       {
         topleft: "url(../src/assets//image/CV7500/praia-piscina.jpg",
         rightcolumn: "url(../src/assets/image/CV7500/kitchen.jpeg",
         downleft: "url(../src/assets//image/CV7500/yard.jpeg",
+      },
+      {
+        topleft: "url(../src/assets//image/CV7500/beach.jpg",
+        rightcolumn: "url(../src/assets/image/CV7500/",
+        downleft: "url(../src/assets//image/CV7500/deck.jpg",
+      },
+      {
+        topleft: "url(../src/assets//image/CV7500/room.jpeg",
+        rightcolumn: "url(../src/assets/image/CV7500/",
+        downleft: "url(../src/assets//image/CV7500/room1.jpeg",
+      },
+      {
+        topleft: "url(../src/assets//image/CV7500/",
+        rightcolumn: "url(../src/assets/image/CV7500/",
+        downleft: "url(../src/assets//image/CV7500/",
+      },
+      {
+        topleft: "url(../src/assets//image/CV7500/",
+        rightcolumn: "url(../src/assets/image/CV7500/",
+        downleft: "url(../src/assets//image/CV7500/",
+      },
+      {
+        topleft: "url(../src/assets//image/CV7500/",
+        rightcolumn: "url(../src/assets/image/CV7500/",
+        downleft: "url(../src/assets//image/CV7500/",
       },
       {
         topleft: "url(../src/assets//image/CV7500/",

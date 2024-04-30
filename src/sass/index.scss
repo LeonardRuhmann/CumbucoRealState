@@ -401,25 +401,31 @@ body {
   height: 50%;
   border: 2px solid green;
   .properties-title {
-    // border: 2px solid blue;
     width: 100%;
   }
 }
 
-.properties-images {
-  display: flex;
+.noGrid {
+  grid-template-columns: 60% !important;
+}
 
+.properties-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
   width: 90%;
   border: 2px solid red;
+
   .properties-container {
     border: 2px solid red;
     display: grid;
     grid-template-columns: 60% auto;
     grid-template-rows: auto 40%;
     gap: 2%;
-    width: 50%;
+    width: 95%;
     height: 450px;
     margin: 2%;
+
     .properties-grid {
       border: 2px solid yellow;
       background-color: red;
