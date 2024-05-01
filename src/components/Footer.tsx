@@ -1,4 +1,3 @@
-import { Link } from "react-scroll";
 export default function Footer() {
   return (
     <>
@@ -20,26 +19,6 @@ export default function Footer() {
             </a>
           </div>
           <div className="footer-informations-links">
-            <Link
-              activeClass="active"
-              to="properties-scroll"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={700}
-            >
-              Properties
-            </Link>
-            <Link
-              activeClass="active"
-              to="about-us-scroll"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={700}
-            >
-              About us
-            </Link>
             <a href="">Terms of use</a>
             <a href="#">Privacy Policy</a>
           </div>

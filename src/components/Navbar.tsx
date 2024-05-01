@@ -1,7 +1,11 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
 
-export default function Navbar() {
+type Props = {
+  scrollActive: boolean;
+};
+
+export default function Navbar({ scrollActive }: Props) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -23,29 +27,32 @@ export default function Navbar() {
         <div className="nav-buttons">
           <ul className="ul-navbar">
             <li>
-              <Link
-                activeClass="active"
-                to="properties-scroll"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={700}
-              >
-                Properties
-              </Link>
+              {scrollActive ? (
+                <Link
+                  to="properties-scroll"
+                  smooth={true}
+                  offset={-70}
+                  duration={700}
+                >
+                  Properties
+                </Link>
+              ) : (
+                <a href="/">Properties</a>
+              )}
             </li>
             <li>
-              {" "}
-              <Link
-                activeClass="active"
-                to="about-us-scroll"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={700}
-              >
-                About us
-              </Link>
+              {scrollActive ? (
+                <Link
+                  to="about-us-scroll"
+                  smooth={true}
+                  offset={-90}
+                  duration={700}
+                >
+                  About us
+                </Link>
+              ) : (
+                <a href="/">About Us</a>
+              )}
             </li>
             <li
               style={{ display: "flex", alignItems: "center" }}

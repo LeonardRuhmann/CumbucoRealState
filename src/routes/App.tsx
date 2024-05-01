@@ -8,7 +8,7 @@ import db from "../database/db.js";
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar scrollActive={true} />
       <div className="main">
         {/* Esse id chamado properties-scroll foi colocado para quando clicado na li da navbar 
         ele possa ser scrollado para a parte de vendas */}

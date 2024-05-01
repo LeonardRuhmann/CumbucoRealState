@@ -6,7 +6,7 @@ import db from "../database/db.js";
 export default function CV7500() {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar scrollActive={false} />
       <div className="main main-properties">
         <div className="properties-content">
           <div className="properties-title">
