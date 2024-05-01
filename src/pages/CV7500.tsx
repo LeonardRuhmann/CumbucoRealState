@@ -54,13 +54,6 @@ export default function CV7500() {
             <div className="space-item-number">1</div>
           </div>
         </div>
-        {/* <div className="properties-contacts">
-          <div className="contact-title">Contacts</div>
-          <div className="contact-content">
-            <p>robert@cumbuco.nl</p>
-            <p>+55 (85) 98690-8189</p>
-          </div>
-        </div> */}
       </div>
       <Footer></Footer>
     </>
