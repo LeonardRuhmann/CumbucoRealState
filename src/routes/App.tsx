@@ -16,19 +16,19 @@ function App() {
           <SectionCard title={"Cumbuco"} />
           <div className="section-cards">
             <Card
-              page_path={`/${db.CV7500.name}`}
+              page_path={`/${db.CV7500.id}`}
               imgUrl={db.CV7500.imgUrl}
               price={db.CV7500.price}
               description={db.CV7500.description}
             />
             <Card
-              page_path={`/${db.CJ1000.name}`}
+              page_path={`/${db.CJ1000.id}`}
               imgUrl={db.CJ1000.imgUrl}
               price={db.CJ1000.price}
               description={db.CJ1000.description}
             />
             <Card
-              page_path={`/${db.CV4400.name}`}
+              page_path={`/${db.CV4400.id}`}
               imgUrl={db.CV4400.imgUrl}
               price={db.CV4400.price}
               description={db.CV4400.description}
@@ -36,19 +36,19 @@ function App() {
           </div>
           <div className="section-cards">
             <Card
-              page_path={`/${db.C1616.name}`}
+              page_path={`/${db.C1616.id}`}
               imgUrl={db.C1616.imgUrl}
               price={db.C1616.price}
               description={db.C1616.description}
             />
             <Card
-              page_path={`/${db.C1617.name}`}
+              page_path={`/${db.C1617.id}`}
               imgUrl={db.C1617.imgUrl}
               price={db.C1617.price}
               description={db.C1617.description}
             />
             <Card
-              page_path={`/${db.Cc1100.name}`}
+              page_path={`/${db.Cc1100.id}`}
               imgUrl={db.Cc1100.imgUrl}
               price={db.Cc1100.price}
               description={db.Cc1100.description}
@@ -56,19 +56,19 @@ function App() {
           </div>
           <div className="section-cards">
             <Card
-              page_path={`/${db.C4278.name}`}
+              page_path={`/${db.C4278.id}`}
               imgUrl={db.C4278.imgUrl}
               price={db.C4278.price}
               description={db.C4278.description}
             />
             <Card
-              page_path={`/${db.CB2030.name}`}
+              page_path={`/${db.CB2030.id}`}
               imgUrl={db.CB2030.imgUrl}
               price={db.Cc1100.price}
               description={db.Cc1100.description}
             />
             <Card
-              page_path={`/${db.CB1000.name}`}
+              page_path={`/${db.CB1000.id}`}
               imgUrl={db.CB1000.imgUrl}
               price={db.CB1000.price}
               description={db.CB1000.description}
@@ -78,19 +78,19 @@ function App() {
           <SectionCard title={"Tabuba"} />
           <div className="section-cards">
             <Card
-              page_path={`/${db.TB2515.name}`}
+              page_path={`/${db.TB2515.id}`}
               imgUrl={db.TB2515.imgUrl}
               price={db.TB2515.price}
               description={db.TB2515.description}
             />
             <Card
-              page_path={`/${db.TB2024.name}`}
+              page_path={`/${db.TB2024.id}`}
               imgUrl={db.TB2024.imgUrl}
               price={db.TB2024.price}
               description={db.TB2024.description}
             />
             <Card
-              page_path={`/${db.TB3151.name}`}
+              page_path={`/${db.TB3151.id}`}
               imgUrl={db.TB3151.imgUrl}
               price={db.TB3151.price}
               description={db.TB3151.description}
@@ -99,7 +99,7 @@ function App() {
           <SectionCard title={"Icaraí"} />
           <div className="section-cards">
             <Card
-              page_path={`/${db.IC3200.name}`}
+              page_path={`/${db.IC3200.id}`}
               imgUrl={db.IC3200.imgUrl}
               price={db.IC3200.price}
               description={db.IC3200.description}
@@ -108,7 +108,7 @@ function App() {
           <SectionCard title={"Cauipe"} />
           <div className="section-cards">
             <Card
-              page_path={`/${db.c1500.name}`}
+              page_path={`/${db.c1500.id}`}
               imgUrl={db.c1500.imgUrl}
               price={db.c1500.price}
               description={db.c1500.description}

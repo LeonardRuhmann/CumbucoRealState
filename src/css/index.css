@@ -63,10 +63,14 @@ body {
   color: green;
 }
 .navbar .nav-buttons .ul-navbar li:hover {
-  transform: scale(1.2);
-  transition: 0.5s;
+  transform: scale(1.3);
+  transition: 0.8s;
   cursor: pointer;
   border-bottom: 2px solid rgb(26, 141, 26);
+}
+.navbar .nav-buttons .ul-navbar li:not(:hover) {
+  transform: scale(1);
+  transition: 0.8s;
 }
 .navbar .dropdown-menu {
   display: flex;
@@ -170,7 +174,7 @@ body {
   justify-content: center;
   text-align: justify;
   height: 30%;
-  margin: 6%;
+  margin-inline: 5%;
 }
 .main .section-properties .section-cards .card .box-card .box-description p {
   margin: 0;
@@ -361,17 +365,31 @@ body {
   font-family: "Open Sans", serif;
 }
 
+.main-properties {
+  justify-content: start;
+  align-items: center;
+  height: 1700px;
+}
+
 .properties-content {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  height: 50%;
-  border: 2px solid green;
+  height: 81%;
 }
 .properties-content .properties-title {
   width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Open Sans", serif;
+}
+.properties-content .properties-title h1 {
+  font-size: 150%;
+  box-shadow: #082a58 8px 8px 8px 2px;
 }
 
 .noGrid {
@@ -385,8 +403,9 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   width: 90%;
-  background-color: #082a58;
+  background-color: #12375a;
   border-radius: 2%;
+  box-shadow: #082a58 0px 0px 8px 5px;
 }
 .properties-images .properties-container {
   display: grid;
@@ -412,6 +431,118 @@ body {
   transition: transform 0.5s;
   cursor: pointer;
   z-index: 1000;
+}
+
+.properties-price {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 88%;
+  height: 5%;
+  color: white;
+  font-family: "Open Sans", serif;
+  border-radius: 2%;
+  box-shadow: #082a58 8px 0px 10px 3px;
+  margin-top: 2%;
+}
+.properties-price h1 {
+  font-weight: 400;
+  font-size: 250%;
+}
+
+.properties-adress {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 88%;
+  height: 4%;
+  color: white;
+  font-family: "Open Sans", serif;
+}
+.properties-adress p {
+  font-size: 150%;
+}
+
+.properties-description {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 88%;
+  background-color: #12375a;
+  padding: 0.5%;
+  margin-top: 1%;
+  color: white;
+  font-family: "Open Sans", serif;
+}
+.properties-description p {
+  font-size: 110%;
+  text-align: justify;
+}
+
+.properties-spaces {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  background-color: #1c5984;
+  box-shadow: #082a58 8px 0px 8px 2px;
+}
+.properties-spaces .properties-space-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 10%;
+  height: 100%;
+  margin-inline: 2%;
+}
+.properties-spaces .properties-space-content .space-item-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: white 2px solid;
+  color: white;
+  width: 100%;
+  height: 30%;
+  font-size: 150%;
+  font-family: "Open Sans", serif;
+  text-shadow: #082a58 1px 5px 3px;
+}
+.properties-spaces .properties-space-content .space-item-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 35%;
+  margin-bottom: 20%;
+  color: white;
+  background-color: #43b14e;
+  border-radius: 30%;
+  font-size: 190%;
+  font-family: "Open Sans", serif;
+}
+
+.properties-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 88%;
+  height: 8%;
+  margin-inline: 2%;
+  color: white;
+  font-family: "Open Sans", serif;
+}
+.properties-contacts .contact-title {
+  width: 100%;
+  height: 40%;
+  font-size: 240%;
+  border-bottom: 2px solid white;
+}
+.properties-contacts .contact-content {
+  width: 100%;
+  height: 50%;
+  font-size: 200%;
 }
 
 /*# sourceMappingURL=index.css.map */

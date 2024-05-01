@@ -1,7 +1,7 @@
 export type Props = {
-  img1: string;
-  img2: string;
-  img3: string;
+  img1: string | undefined;
+  img2: string | undefined;
+  img3: string | undefined;
 };
 
 export default function LayoutImages({ img1, img2, img3 }: Props) {
