@@ -385,6 +385,8 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   width: 90%;
+  background-color: #082a58;
+  border-radius: 2%;
 }
 .properties-images .properties-container {
   display: grid;
@@ -399,6 +401,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 5%;
 }
 .properties-images .properties-container .properties-grid:not(:hover) {
   transform: scale(1);

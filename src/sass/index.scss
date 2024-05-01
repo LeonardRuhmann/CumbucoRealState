@@ -416,6 +416,8 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   width: 90%;
+  background-color: #082a58;
+  border-radius: 2%;
 
   .properties-container {
     display: grid;
@@ -430,6 +432,7 @@ body {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      border-radius: 5%;
       &:not(:hover) {
         transform: scale(1);
         transition: transform 0.2s;
