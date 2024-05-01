@@ -47,13 +47,24 @@ export default {
   },
   CJ1000: {
     id: "CJ1000",
-    name: "CJ1000",
-    imgUrl:
-      "../src/assets/image/CJ1000/23d96d86-fa05-4926-8c8b-2617f6b34b7e.jpeg",
+    name: "Casa com 4 Quartos",
+    imgUrl: "../src/assets/image/CJ1000/pool-house-deck2-large.jpeg",
     price: "850.000",
+    BackgroundIMG: [
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets//image/CJ1000/pool-beach.jpg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/CJ1000/quintal.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/CJ1000/sala-de-estar.jpeg",
+      },
+    ],
     description:
       "Large modern style house right in the center of Cumbuco and at 50 meters from the beach with 7 double rooms with bathrooms, a spacious separate kitchen house with toilet facility, a garage, carport, a beautiful pool and a tropical garden.",
+    adress: "",
   },
+
   CV4400: {
     id: "CV4400",
     name: "CV4400",
