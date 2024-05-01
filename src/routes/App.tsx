@@ -1,4 +1,4 @@
-import Footer from "../components/Footer";
+import Footer from "../components/Footer.jsx";
 import Navbar from "../components/Navbar";
 import SectionCard from "../components/SectionCard";
 import Card from "../components/subcomponents/Card";

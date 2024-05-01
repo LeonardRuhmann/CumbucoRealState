@@ -1,7 +1,7 @@
-import Footer from "../components/Footer";
+import Footer from "../components/Footer.tsx";
 import Navbar from "../components/Navbar";
 import LayoutImages from "../components/subcomponents/LayoutImages";
-import db from "../database/db";
+import db from "../database/db.js";
 
 export default function CV7500() {
   return (
@@ -39,11 +39,11 @@ export default function CV7500() {
           </div>
           <div className="properties-space-content">
             <div className="space-item-title">Quartos</div>
-            <div className="space-item-number">1</div>
+            <div className="space-item-number">3</div>
           </div>
           <div className="properties-space-content">
             <div className="space-item-title">Banheiros</div>
-            <div className="space-item-number">1</div>
+            <div className="space-item-number">3</div>
           </div>
           <div className="properties-space-content">
             <div className="space-item-title">Cozinha</div>
@@ -51,7 +51,7 @@ export default function CV7500() {
           </div>
           <div className="properties-space-content">
             <div className="space-item-title">Sala</div>
-            <div className="space-item-number">1</div>
+            <div className="space-item-number">2</div>
           </div>
         </div>
       </div>

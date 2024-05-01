@@ -487,6 +487,7 @@ body {
   height: 10%;
   background-color: #1c5984;
   box-shadow: #082a58 8px 0px 8px 2px;
+  margin-top: 4%;
 }
 .properties-spaces .properties-space-content {
   display: flex;

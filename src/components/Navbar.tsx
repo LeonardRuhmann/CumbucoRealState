@@ -66,12 +66,14 @@ export default function Navbar() {
             {isOpen && (
               <ul className="dropdown-menu">
                 <li className="dropdown-items">
-                  {" "}
-                  <a href="#">robert@cumbuco.nl</a>
+                  <a href="mailto:roberto@cumbuco.nl?subject=Hi. I want talk with about the properties&body=I want to know a little more about the properties">
+                    robert@cumbuco.nl
+                  </a>
                 </li>
                 <li className="dropdown-items">
-                  {" "}
-                  <a href="#">(85) 98690-8189</a>
+                  <a target="_blank" href="https://wa.me/5585986908189">
+                    (85) 98690-8189
+                  </a>
                 </li>
               </ul>
             )}
