@@ -589,7 +589,19 @@ export default {
     name: "c1500",
     imgUrl: "../src/assets/image/c1500.jpg",
     price: "1.500.000",
+    BackgroundIMG: [
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/c1500.jpg",
+        //  rightcolumn is 228x451
+        // rightcolumn: "url(../src/assets/image/IC3200/room2.jpeg",
+        // downleft is 360x179
+        // downleft: "url(../src/assets//image/IC3200/room6.jpeg",
+      },
+    ],
     description:
       "3242 m2 of land very near the Lagoa de Cauipe. The land has a matricula.",
+    adress:
+      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
   },
 };
