@@ -354,10 +354,62 @@ export default {
   TB2515: {
     id: "TB2515",
     name: "TB2515",
-    imgUrl: "../src/assets/image/TB2515/IMG_20170607_171916 (Custom).jpg",
+    imgUrl: "../src/assets/image/TB2515/pool.jpg",
     price: "180.000",
+    BackgroundIMG: [
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/TB2515/pool.jpg",
+        //  rightcolumn is 228x451
+        // rightcolumn: "url(../src/assets/image/TB2515/.jpg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/TB2515/pool-deck2.jpg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/TB2515/bathroom.jpg",
+        //  rightcolumn is 228x451
+        // rightcolumn: "url(../src/assets/image/TB2515/.jpg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/TB2515/bathroom2.jpg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/TB2515/kitchen.jpg",
+        //  rightcolumn is 228x451
+        // rightcolumn: "url(../src/assets/image/TB2515/.jpg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/TB2515/laundry.jpg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/TB2515/livingroom.jpg",
+        //  rightcolumn is 228x451
+        // rightcolumn: "url(../src/assets/image/TB2515/.jpg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/TB2515/livingroom2.jpg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/TB2515/room.jpg",
+        //  rightcolumn is 228x451
+        // rightcolumn: "url(../src/assets/image/TB2515/.jpg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/TB2515/room2.jpg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/TB2515/room3.jpg",
+        //  rightcolumn is 228x451
+        // rightcolumn: "url(../src/assets/image/TB2515/.jpg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/TB2515/room4.jpg",
+      },
+    ],
     description:
       "6 furnished 4 bedroom apartments of 103 to 120 m² in the luxurious Sheyliane condominium in Tabuba.",
+    adress:
+      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
   },
   TB2024: {
     id: "TB2024",
