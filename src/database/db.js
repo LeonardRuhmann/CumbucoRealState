@@ -137,18 +137,57 @@ export default {
   C1616: {
     id: "C1616",
     name: "C1616",
-    imgUrl:
-      "../src/assets/image/C1616/WhatsApp Image 2023-07-20 at 11.34.20.jpeg",
+    imgUrl: "../src/assets/image/C1616/pool-house.jpeg",
     price: "1.600.000",
+    BackgroundIMG: [
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/C1616/pool-deck.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/C1616/pool-garage.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/C1616/barbecue.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/C1616/pool-house.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/C1616/backyard.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/C1616/garage.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/C1616/lote.jpg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/C1616/pool-house.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/C1616/room.jpeg",
+      },
+    ],
     description:
       "Large house with 6 air-conditioned suites on a lot of 820 m2. At just 100 meters from the center of Cumbuco, perfect to turn in to a pousada.",
+    adress:
+      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
   },
   C1617: {
     id: "C1617",
     name: "C1617",
     imgUrl: "../src/assets/image/C1617.jpg",
     price: "400.000",
+    BackgroundIMG: [
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/C1617/lote.jpg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/C1617/pool-house.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/C1617/room.jpeg",
+      },
+    ],
     description: "Lot of 820 m2 behind C1616.",
+    adress:
+      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
   },
   Cc1100: {
     id: "Cc1100",
@@ -156,8 +195,20 @@ export default {
     imgUrl:
       "../src/assets/image/Cc1100/WhatsApp Image 2022-04-26 at 16.15.20.jpeg",
     price: "1.200.000",
+    BackgroundIMG: [
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/C1616/lote.jpg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/C1616/pool-house.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/C1616/room.jpeg",
+      },
+    ],
     description:
       "The Beach Sun Cumbuco condominium is built on 3440 m2 of land with 86 meters beachfront. The apartment for sale has 120 m2 and is on the ground floor on the last block. The price includes all furniture. ",
+    adress:
+      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
   },
   C4278: {
     id: "C4278",
