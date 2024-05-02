@@ -251,8 +251,61 @@ export default {
     imgUrl:
       "../src/assets/image/CB2030/Penthouse and Cumbuco Beach Apartments 046.jpg",
     price: "500.000",
+    BackgroundIMG: [
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/CB2030/kitchen.jpg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/CB2030/pool-deck.jpg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/CB2030/livingroom.jpg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/CB2030/kitchen.jpg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/CB2030/apartment.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/CB2030/livingroom2.jpg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/CB2030/balcony.jpg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/CB2030/room.jpg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/CB2030/room2.jpg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/CB2030/pool.jpg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/CB2030/room4.jpg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/CB2030/room3.jpg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/CB2030/pool-deck2.jpg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/CB2030/livingroom3.jpg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/CB2030/livingroom3.jpg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/CB2030/apartment.jpg",
+        //  rightcolumn is 228x451
+        // rightcolumn: "url(../src/assets/image/CB2030/.jpg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/CB2030/room.jpg",
+      },
+    ],
+
     description:
       "2 bedroom apartment of 67 m², top floor, in the Royal Beach condominium, right in the center of Cumbuco. ",
+    adress:
+      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
   },
   CB1000: {
     id: "CB1000",
