@@ -1,19 +1,19 @@
 import Footer from "../components/Footer.tsx";
-import Navbar from "../components/Navbar";
-import LayoutImages from "../components/subcomponents/LayoutImages";
+import Navbar from "../components/Navbar.tsx";
+import LayoutImages from "../components/subcomponents/LayoutImages.tsx";
 import db from "../database/db.js";
 
-export default function CJ1000() {
+export default function TB2024() {
   return (
     <>
       <Navbar scrollActive={false} />
-      <div className="main main-properties">
+      <div style={{ height: "2700px" }} className="main main-properties">
         <div className="properties-content">
           <div className="properties-title">
-            <h1>{db.CJ1000.name}</h1>
+            <h1>{db.TB2024.name}</h1>
           </div>
           <div className="properties-images">
-            {db.CJ1000.BackgroundIMG.map((item, index) => (
+            {db.TB2024.BackgroundIMG.map((item, index) => (
               <LayoutImages
                 key={index}
                 img1={item.topleft}
@@ -23,13 +23,13 @@ export default function CJ1000() {
             ))}
           </div>
           <div className="properties-price">
-            <h1>R$ {db.CJ1000.price}</h1>
+            <h1>R$ {db.TB2024.price}</h1>
           </div>
           <div className="properties-adress">
-            <p>{db.CJ1000.adress}</p>
+            <p>{db.TB2024.adress}</p>
           </div>
           <div className="properties-description">
-            <p>{db.CJ1000.description}</p>
+            <p>{db.TB2024.description}</p>
           </div>
         </div>
         <div className="properties-spaces">

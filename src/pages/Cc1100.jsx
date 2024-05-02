@@ -1,19 +1,19 @@
 import Footer from "../components/Footer.tsx";
-import Navbar from "../components/Navbar";
-import LayoutImages from "../components/subcomponents/LayoutImages";
+import Navbar from "../components/Navbar.tsx";
+import LayoutImages from "../components/subcomponents/LayoutImages.tsx";
 import db from "../database/db.js";
 
-export default function CB1000() {
+export default function Cc1100() {
   return (
     <>
       <Navbar scrollActive={false} />
-      <div style={{ height: "2200px" }} className="main main-properties">
+      <div className="main main-properties">
         <div className="properties-content">
           <div className="properties-title">
-            <h1>{db.CB1000.name}</h1>
+            <h1>{db.Cc1100.name}</h1>
           </div>
           <div className="properties-images">
-            {db.CB1000.BackgroundIMG.map((item, index) => (
+            {db.Cc1100.BackgroundIMG.map((item, index) => (
               <LayoutImages
                 key={index}
                 img1={item.topleft}
@@ -23,13 +23,13 @@ export default function CB1000() {
             ))}
           </div>
           <div className="properties-price">
-            <h1>R$ {db.CB1000.price}</h1>
+            <h1>R$ {db.Cc1100.price}</h1>
           </div>
           <div className="properties-adress">
-            <p>{db.CB1000.adress}</p>
+            <p>{db.Cc1100.adress}</p>
           </div>
           <div className="properties-description">
-            <p>{db.CB1000.description}</p>
+            <p>{db.Cc1100.description}</p>
           </div>
         </div>
         <div className="properties-spaces">

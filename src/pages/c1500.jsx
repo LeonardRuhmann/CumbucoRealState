@@ -1,6 +1,6 @@
 import Footer from "../components/Footer.tsx";
-import Navbar from "../components/Navbar";
-import LayoutImages from "../components/subcomponents/LayoutImages";
+import Navbar from "../components/Navbar.tsx";
+import LayoutImages from "../components/subcomponents/LayoutImages.tsx";
 import db from "../database/db.js";
 
 export default function c1500() {

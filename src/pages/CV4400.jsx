@@ -1,19 +1,19 @@
 import Footer from "../components/Footer.tsx";
-import Navbar from "../components/Navbar";
-import LayoutImages from "../components/subcomponents/LayoutImages";
+import Navbar from "../components/Navbar.tsx";
+import LayoutImages from "../components/subcomponents/LayoutImages.tsx";
 import db from "../database/db.js";
 
-export default function CB2030() {
+export default function CV4400() {
   return (
     <>
       <Navbar scrollActive={false} />
-      <div style={{ height: "2200px" }} className="main main-properties">
+      <div className="main main-properties">
         <div className="properties-content">
           <div className="properties-title">
-            <h1>{db.CB2030.name}</h1>
+            <h1>{db.CV4400.name}</h1>
           </div>
           <div className="properties-images">
-            {db.CB2030.BackgroundIMG.map((item, index) => (
+            {db.CV4400.BackgroundIMG.map((item, index) => (
               <LayoutImages
                 key={index}
                 img1={item.topleft}
@@ -23,13 +23,13 @@ export default function CB2030() {
             ))}
           </div>
           <div className="properties-price">
-            <h1>R$ {db.CB2030.price}</h1>
+            <h1>R$ {db.CV4400.price}</h1>
           </div>
           <div className="properties-adress">
-            <p>{db.CB2030.adress}</p>
+            <p>{db.CV4400.adress}</p>
           </div>
           <div className="properties-description">
-            <p>{db.CB2030.description}</p>
+            <p>{db.CV4400.description}</p>
           </div>
         </div>
         <div className="properties-spaces">

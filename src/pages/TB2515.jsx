@@ -1,19 +1,19 @@
 import Footer from "../components/Footer.tsx";
-import Navbar from "../components/Navbar";
-import LayoutImages from "../components/subcomponents/LayoutImages";
+import Navbar from "../components/Navbar.tsx";
+import LayoutImages from "../components/subcomponents/LayoutImages.tsx";
 import db from "../database/db.js";
 
-export default function CV7500() {
+export default function TB2515() {
   return (
     <>
       <Navbar scrollActive={false} />
-      <div className="main main-properties">
+      <div style={{ height: "2200px" }} className="main main-properties">
         <div className="properties-content">
           <div className="properties-title">
-            <h1>{db.CV7500.name}</h1>
+            <h1>{db.TB2515.name}</h1>
           </div>
           <div className="properties-images">
-            {db.CV7500.BackgroundIMG.map((item, index) => (
+            {db.TB2515.BackgroundIMG.map((item, index) => (
               <LayoutImages
                 key={index}
                 img1={item.topleft}
@@ -23,13 +23,13 @@ export default function CV7500() {
             ))}
           </div>
           <div className="properties-price">
-            <h1>R$ {db.CV7500.price}</h1>
+            <h1>R$ {db.TB2515.price}</h1>
           </div>
           <div className="properties-adress">
-            <p>{db.CV7500.adress}</p>
+            <p>{db.TB2515.adress}</p>
           </div>
           <div className="properties-description">
-            <p>{db.CV7500.description}</p>
+            <p>{db.TB2515.description}</p>
           </div>
         </div>
         <div className="properties-spaces">

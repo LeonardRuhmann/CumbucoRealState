@@ -1,19 +1,19 @@
 import Footer from "../components/Footer.tsx";
-import Navbar from "../components/Navbar";
-import LayoutImages from "../components/subcomponents/LayoutImages";
+import Navbar from "../components/Navbar.tsx";
+import LayoutImages from "../components/subcomponents/LayoutImages.tsx";
 import db from "../database/db.js";
 
-export default function TB3151() {
+export default function IC3200() {
   return (
     <>
       <Navbar scrollActive={false} />
       <div style={{ height: "2000px" }} className="main main-properties">
         <div className="properties-content">
           <div className="properties-title">
-            <h1>{db.TB3151.name}</h1>
+            <h1>{db.IC3200.name}</h1>
           </div>
           <div className="properties-images">
-            {db.TB3151.BackgroundIMG.map((item, index) => (
+            {db.IC3200.BackgroundIMG.map((item, index) => (
               <LayoutImages
                 key={index}
                 img1={item.topleft}
@@ -23,13 +23,13 @@ export default function TB3151() {
             ))}
           </div>
           <div className="properties-price">
-            <h1>R$ {db.TB3151.price}</h1>
+            <h1>R$ {db.IC3200.price}</h1>
           </div>
           <div className="properties-adress">
-            <p>{db.TB3151.adress}</p>
+            <p>{db.IC3200.adress}</p>
           </div>
           <div className="properties-description">
-            <p>{db.TB3151.description}</p>
+            <p>{db.IC3200.description}</p>
           </div>
         </div>
         <div className="properties-spaces">
