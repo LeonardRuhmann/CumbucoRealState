@@ -490,11 +490,38 @@ export default {
   TB3151: {
     id: "TB3151",
     name: "TB3151",
-    imgUrl:
-      "../src/assets/image/TB3151/WhatsApp Image 2022-12-22 at 14.01.39.jpeg",
+    imgUrl: "../src/assets/image/TB3151/pool-apartment.jpeg",
     price: "220.000",
+    BackgroundIMG: [
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/TB3151/room.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/TB3151/room3.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/TB3151/pool-apartment.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/TB3151/kitchen.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/TB3151/livingroom.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/TB3151/room2.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/TB3151/pool-deck.jpeg",
+        //  rightcolumn is 228x451
+        // rightcolumn: "url(../src/assets/image/TB3151/room.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/TB3151/room2.jpeg",
+      },
+    ],
     description:
       "Recently renovated 3 bedroom apartment of 110 m² 3 bedroms, 3 bathrooms, kitchen and a large living room in the Esplanada da Tabuba condominium. ",
+    adress:
+      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
   },
   IC3200: {
     id: "IC2300",
