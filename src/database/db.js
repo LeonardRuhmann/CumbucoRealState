@@ -192,17 +192,32 @@ export default {
   Cc1100: {
     id: "Cc1100",
     name: "Cc1100",
-    imgUrl:
-      "../src/assets/image/Cc1100/WhatsApp Image 2022-04-26 at 16.15.20.jpeg",
+    imgUrl: "../src/assets/image/Cc1100/balcony-pool-beach-large.jpeg",
     price: "1.200.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/C1616/lote.jpg",
+        topleft: "url(../src/assets/image/Cc1100/balcony-pool-beach-large.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/C1616/pool-house.jpeg",
+        rightcolumn: "url(../src/assets/image/Cc1100/bathroom.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/C1616/room.jpeg",
+        downleft: "url(../src/assets//image/Cc1100/room.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/Cc1100/kitchen2.jpg",
+        //  rightcolumn is 228x451
+        // rightcolumn: "url(../src/assets/image/Cc1100/livingroom.jpg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/Cc1100/pool-beach.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/Cc1100/kitchen.jpg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/Cc1100/pool-beach.jpg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/Cc1100/livingroom.jpg",
       },
     ],
     description:
