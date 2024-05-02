@@ -41,7 +41,7 @@ export default {
       },
     ],
     description:
-      "Este lote é um apartamento de dois quartos localizado no térreo em Verandas do Mar, com vista para a praia. O apartamento também inclui um jardim privativo de 20 m², proporcionando um espaço ao ar livre adicional para os moradores desfrutarem. A localização à beira-mar e a presença do jardim tornam este apartamento uma opção atrativa para quem busca uma experiência residencial relaxante e próxima da natureza.",
+      " Beachfront 2 bedroom apartment on the ground floor in Verandas do Mar, includes a 20 m² garden. ",
     adress:
       "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
   },
