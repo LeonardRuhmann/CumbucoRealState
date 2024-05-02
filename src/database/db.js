@@ -172,17 +172,17 @@ export default {
   },
   C1617: {
     id: "C1617",
-    name: "C1617",
+    name: "Lot of 820 m² behind C1616",
     imgUrl: "../src/assets/image/C1617.jpg",
     price: "400.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/C1617/lote.jpg",
+        topleft: "url(../src/assets/image/C1617.jpg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/C1617/pool-house.jpeg",
+        // rightcolumn: "url(../src/assets/image/C1617/",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/C1617/room.jpeg",
+        // downleft: "url(../src/assets//image/C1617/",
       },
     ],
     description: "Lot of 820 m2 behind C1616.",
