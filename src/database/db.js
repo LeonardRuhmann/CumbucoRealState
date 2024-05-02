@@ -414,11 +414,78 @@ export default {
   TB2024: {
     id: "TB2024",
     name: "TB2024",
-    imgUrl:
-      "../src/assets/image/TB2024/WhatsApp Image 2024-02-27 at 13.06.03 (1).jpeg",
+    imgUrl: "../src/assets/image/TB2024/house.jpeg",
     price: "2.000.000",
+    BackgroundIMG: [
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/TB2024/pool.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/TB2024/pool-sun.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/TB2024/room.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/TB2024/livingroom.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/TB2024/beach2.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/TB2024/lote.jpg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/TB2024/livingroom2.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/TB2024/livingroom3.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/TB2024/livingroom4.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/TB2024/livingroom5.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/TB2024/pool2.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/TB2024/pool-beach.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/TB2024/room5.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/TB2024/kitchen2.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/TB2024/room6.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/TB2024/room5.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/TB2024/kitchen3.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/TB2024/room4.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/TB2024/room6.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/TB2024/kitchen.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/TB2024/room7.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/TB2024/room8.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/TB2024/house.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/TB2024/room9.jpeg",
+      },
+    ],
     description:
       "Luxury beachfront house in Tabuba, completely renovated in 2023. There are 4 large suites, the master bedroom has a large jacuzzi. The lot is 1750 m2.",
+    adress:
+      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
   },
   TB3151: {
     id: "TB3151",
