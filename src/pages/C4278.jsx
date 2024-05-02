@@ -32,28 +32,6 @@ export default function C4278() {
             <p>{db.C4278.adress}</p>
           </div>
         </div>
-        <div className="properties-spaces">
-          <div className="properties-space-content">
-            <div className="space-item-title">Garagem</div>
-            <div className="space-item-number">1</div>
-          </div>
-          <div className="properties-space-content">
-            <div className="space-item-title">Quartos</div>
-            <div className="space-item-number">3</div>
-          </div>
-          <div className="properties-space-content">
-            <div className="space-item-title">Banheiros</div>
-            <div className="space-item-number">3</div>
-          </div>
-          <div className="properties-space-content">
-            <div className="space-item-title">Cozinha</div>
-            <div className="space-item-number">1</div>
-          </div>
-          <div className="properties-space-content">
-            <div className="space-item-title">Sala</div>
-            <div className="space-item-number">2</div>
-          </div>
-        </div>
       </div>
       <Footer></Footer>
     </>
