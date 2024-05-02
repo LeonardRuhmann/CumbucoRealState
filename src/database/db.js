@@ -227,11 +227,23 @@ export default {
   },
   C4278: {
     id: "C4278",
-    ame: "C4278",
+    name: "C4278",
     imgUrl: "../src/assets/image/C4278.jpg",
     price: "6.053.000",
+    BackgroundIMG: [
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/C4278.jpg",
+        //  rightcolumn is 228x451
+        // rightcolumn: "url(../src/assets/image/C4278/",
+        // downleft is 360x179
+        // downleft: "url(../src/assets//image/C4278/",
+      },
+    ],
     description:
       "Beachfront land in Cumbuco, 5 lots with a total of 4278 m², beachfront is 63,46 meter. The price is 255 Euro per m²",
+    adress:
+      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
   },
   CB2030: {
     id: "CB2030",
