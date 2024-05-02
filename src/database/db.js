@@ -524,13 +524,64 @@ export default {
       "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
   },
   IC3200: {
-    id: "IC2300",
+    id: "IC3200",
     name: "IC3200",
-    imgUrl:
-      "../src/assets/image/IC3200/WhatsApp Image 2022-03-03 at 13.57.04.jpeg",
+    imgUrl: "../src/assets/image/IC3200/pool.jpeg",
     price: "340.000",
+    BackgroundIMG: [
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/IC3200/kitchen.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/IC3200/bathroom.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/IC3200/livingroom3.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/IC3200/balcony.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/IC3200/room4.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/IC3200/pool.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/IC3200/livingroom4.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/IC3200/livingroom2.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/IC3200/livingroom.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/IC3200/laundry.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/IC3200/kitchen2.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/IC3200/hall2.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/IC3200/main-door.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/IC3200/wall-house.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/IC3200/pool2.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/IC3200/room.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/IC3200/room2.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/IC3200/room6.jpeg",
+      },
+    ],
     description:
       "House with 4 bedrooms (of which 2 are suites), one common bathroom, large veranda, swimmingpool on a lot of 380 m² near the beach in Icarai. ",
+    adress:
+      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
   },
   c1500: {
     id: "c1500",
