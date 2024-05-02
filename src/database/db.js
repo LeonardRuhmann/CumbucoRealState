@@ -1,7 +1,7 @@
 export default {
   CV7500: {
     id: "CV7500",
-    name: "Beachfront 2 bedroom apartment on the ground floor in Verandas do Mar, includes a 20 m² garden.",
+    name: "CV7500",
     imgUrl: "/image/CV7500/pool-beach.jpg",
     price: "850.000",
     // Em BackgroundIMG é preciso passar o path da imagem com o "url", pois será enviado para
@@ -47,7 +47,7 @@ export default {
   },
   CJ1000: {
     id: "CJ1000",
-    name: "Large modern style house right in the center of Cumbuco and at 50 meters from the beach with 7 double rooms with bathrooms",
+    name: "CJ1000",
     imgUrl: "/image/CJ1000/pool-house-deck2-large.jpeg",
     price: "850.000",
     BackgroundIMG: [
@@ -92,7 +92,7 @@ export default {
 
   CV4400: {
     id: "CV4400",
-    name: "2 bedroom apartment of 67,90 m² on the second floor in the Sun Village Cumbuco.",
+    name: "CV4400",
     imgUrl: "/image/CV4400/apartment.JPG",
     price: "490.000",
     BackgroundIMG: [
@@ -172,7 +172,7 @@ export default {
   },
   C1617: {
     id: "C1617",
-    name: "Lot of 820 m² behind C1616",
+    name: "C1617",
     imgUrl: "/image/C1617.jpg",
     price: "400.000",
     BackgroundIMG: [
@@ -205,19 +205,19 @@ export default {
       },
       {
         // topleft is 350x261
-        topleft: "url(/image/Cc1100/kitchen2.jpg",
+        topleft: "url(/image/Cc1100/kitchen2.JPG",
         //  rightcolumn is 228x451
-        // rightcolumn: "url(/image/Cc1100/livingroom.jpg",
+        // rightcolumn: "url(/image/Cc1100/livingroom.JPG",
         // downleft is 360x179
         downleft: "url(/image/Cc1100/pool-beach.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(/image/Cc1100/kitchen.jpg",
+        topleft: "url(/image/Cc1100/kitchen.JPG",
         //  rightcolumn is 228x451
-        rightcolumn: "url(/image/Cc1100/pool-beach.jpg",
+        rightcolumn: "url(/image/Cc1100/pool-beach.JPG",
         // downleft is 360x179
-        downleft: "url(/image/Cc1100/livingroom.jpg",
+        downleft: "url(/image/Cc1100/livingroom.JPG",
       },
     ],
     description:
@@ -308,7 +308,7 @@ export default {
   },
   CB1000: {
     id: "CB1000",
-    name: "House near the center of Cumbuco on a lot of 920 m2.",
+    name: "CB1000",
     imgUrl: "/image/CB1000/house.jpeg",
     price: "1.000.000",
     BackgroundIMG: [

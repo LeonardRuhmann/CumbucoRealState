@@ -12,6 +12,9 @@ export default function CB2030() {
           <div className="properties-title">
             <h1>{db.CB2030.name}</h1>
           </div>
+          <div className="properties-description">
+            <p>{db.CB2030.description}</p>
+          </div>
           <div className="properties-images">
             {db.CB2030.BackgroundIMG.map((item, index) => (
               <LayoutImages
@@ -27,9 +30,6 @@ export default function CB2030() {
           </div>
           <div className="properties-adress">
             <p>{db.CB2030.adress}</p>
-          </div>
-          <div className="properties-description">
-            <p>{db.CB2030.description}</p>
           </div>
         </div>
         <div className="properties-spaces">

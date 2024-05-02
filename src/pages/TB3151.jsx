@@ -12,6 +12,9 @@ export default function TB3151() {
           <div className="properties-title">
             <h1>{db.TB3151.name}</h1>
           </div>
+          <div className="properties-description">
+            <p>{db.TB3151.description}</p>
+          </div>
           <div className="properties-images">
             {db.TB3151.BackgroundIMG.map((item, index) => (
               <LayoutImages
@@ -27,9 +30,6 @@ export default function TB3151() {
           </div>
           <div className="properties-adress">
             <p>{db.TB3151.adress}</p>
-          </div>
-          <div className="properties-description">
-            <p>{db.TB3151.description}</p>
           </div>
         </div>
         <div className="properties-spaces">

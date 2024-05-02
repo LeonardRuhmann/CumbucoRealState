@@ -12,6 +12,9 @@ export default function IC3200() {
           <div className="properties-title">
             <h1>{db.IC3200.name}</h1>
           </div>
+          <div className="properties-description">
+            <p>{db.IC3200.description}</p>
+          </div>
           <div className="properties-images">
             {db.IC3200.BackgroundIMG.map((item, index) => (
               <LayoutImages
@@ -27,9 +30,6 @@ export default function IC3200() {
           </div>
           <div className="properties-adress">
             <p>{db.IC3200.adress}</p>
-          </div>
-          <div className="properties-description">
-            <p>{db.IC3200.description}</p>
           </div>
         </div>
         <div className="properties-spaces">

@@ -12,6 +12,9 @@ export default function C4278() {
           <div className="properties-title">
             <h1>{db.C4278.name}</h1>
           </div>
+          <div className="properties-description">
+            <p>{db.C4278.description}</p>
+          </div>
           <div className="properties-images">
             {db.C4278.BackgroundIMG.map((item, index) => (
               <LayoutImages
@@ -27,9 +30,6 @@ export default function C4278() {
           </div>
           <div className="properties-adress">
             <p>{db.C4278.adress}</p>
-          </div>
-          <div className="properties-description">
-            <p>{db.C4278.description}</p>
           </div>
         </div>
         <div className="properties-spaces">

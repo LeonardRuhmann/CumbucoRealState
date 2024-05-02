@@ -12,6 +12,9 @@ export default function c1500() {
           <div className="properties-title">
             <h1>{db.c1500.name}</h1>
           </div>
+          <div className="properties-description">
+            <p>{db.c1500.description}</p>
+          </div>
           <div className="properties-images">
             {db.c1500.BackgroundIMG.map((item, index) => (
               <LayoutImages
@@ -27,9 +30,6 @@ export default function c1500() {
           </div>
           <div className="properties-adress">
             <p>{db.c1500.adress}</p>
-          </div>
-          <div className="properties-description">
-            <p>{db.c1500.description}</p>
           </div>
         </div>
         {/* <div className="properties-spaces">

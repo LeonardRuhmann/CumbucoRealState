@@ -12,6 +12,9 @@ export default function TB2515() {
           <div className="properties-title">
             <h1>{db.TB2515.name}</h1>
           </div>
+          <div className="properties-description">
+            <p>{db.TB2515.description}</p>
+          </div>
           <div className="properties-images">
             {db.TB2515.BackgroundIMG.map((item, index) => (
               <LayoutImages
@@ -27,9 +30,6 @@ export default function TB2515() {
           </div>
           <div className="properties-adress">
             <p>{db.TB2515.adress}</p>
-          </div>
-          <div className="properties-description">
-            <p>{db.TB2515.description}</p>
           </div>
         </div>
         <div className="properties-spaces">

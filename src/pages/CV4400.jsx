@@ -12,6 +12,9 @@ export default function CV4400() {
           <div className="properties-title">
             <h1>{db.CV4400.name}</h1>
           </div>
+          <div className="properties-description">
+            <p>{db.CV4400.description}</p>
+          </div>
           <div className="properties-images">
             {db.CV4400.BackgroundIMG.map((item, index) => (
               <LayoutImages
@@ -27,9 +30,6 @@ export default function CV4400() {
           </div>
           <div className="properties-adress">
             <p>{db.CV4400.adress}</p>
-          </div>
-          <div className="properties-description">
-            <p>{db.CV4400.description}</p>
           </div>
         </div>
         <div className="properties-spaces">

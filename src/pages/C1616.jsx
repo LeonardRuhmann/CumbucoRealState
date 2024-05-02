@@ -12,6 +12,9 @@ export default function C1616() {
           <div className="properties-title">
             <h1>{db.C1616.name}</h1>
           </div>
+          <div className="properties-description">
+            <p>{db.C1616.description}</p>
+          </div>
           <div className="properties-images">
             {db.C1616.BackgroundIMG.map((item, index) => (
               <LayoutImages
@@ -27,9 +30,6 @@ export default function C1616() {
           </div>
           <div className="properties-adress">
             <p>{db.C1616.adress}</p>
-          </div>
-          <div className="properties-description">
-            <p>{db.C1616.description}</p>
           </div>
         </div>
         <div className="properties-spaces">

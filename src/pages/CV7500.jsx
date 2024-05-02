@@ -12,6 +12,9 @@ export default function CV7500() {
           <div className="properties-title">
             <h1>{db.CV7500.name}</h1>
           </div>
+          <div className="properties-description">
+            <p>{db.CV7500.description}</p>
+          </div>
           <div className="properties-images">
             {db.CV7500.BackgroundIMG.map((item, index) => (
               <LayoutImages
@@ -27,9 +30,6 @@ export default function CV7500() {
           </div>
           <div className="properties-adress">
             <p>{db.CV7500.adress}</p>
-          </div>
-          <div className="properties-description">
-            <p>{db.CV7500.description}</p>
           </div>
         </div>
         <div className="properties-spaces">
