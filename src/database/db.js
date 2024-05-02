@@ -47,31 +47,92 @@ export default {
   },
   CJ1000: {
     id: "CJ1000",
-    name: "Casa com 4 Quartos",
+    name: "Large modern style house right in the center of Cumbuco and at 50 meters from the beach with 7 double rooms with bathrooms",
     imgUrl: "../src/assets/image/CJ1000/pool-house-deck2-large.jpeg",
     price: "850.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
-        topleft: "url(../src/assets//image/CJ1000/pool-beach.jpg",
+        topleft: "url(../src/assets//image/CJ1000/pool-house-deck-large.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/CJ1000/quintal.jpeg",
+        rightcolumn: "url(../src/assets/image/CJ1000/garden.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CJ1000/sala-de-estar.jpeg",
+        downleft: "url(../src/assets//image/CJ1000/livingroom-pool.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets//image/CJ1000/desk.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/CJ1000/inside-house.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/CJ1000/house-garage-large.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets//image/CJ1000/balcony2-large.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets//image/CJ1000/balcony-large.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/CJ1000/kitchen.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets//image/CJ1000/pool-house-deck2-large.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets//image/CJ1000/house-top.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/CJ1000/beach-kite2.jpeg",
       },
     ],
     description:
       "Large modern style house right in the center of Cumbuco and at 50 meters from the beach with 7 double rooms with bathrooms, a spacious separate kitchen house with toilet facility, a garage, carport, a beautiful pool and a tropical garden.",
-    adress: "",
+    adress:
+      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
   },
 
   CV4400: {
     id: "CV4400",
-    name: "CV4400",
-    imgUrl: "../src/assets/image/CV4400/IMG_0060.JPG",
+    name: "2 bedroom apartment of 67,90 m² on the second floor in the Sun Village Cumbuco.",
+    imgUrl: "../src/assets/image/CV4400/apartment.jpg",
     price: "490.000",
+    BackgroundIMG: [
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets//image/CV4400/room.jpg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/CV4400/balcony.jpg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/CV4400/balcony2.jpg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets//image/CV4400/pool2.jpg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/CV4400/livingroom4.jpg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/CV4400/livingroom3.jpg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets//image/CV4400/livingroom2.jpg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/CV4400/pool2.jpg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/CV4400/kitchen.jpg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets//image/CV4400/livingroom.jpg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/CV4400/elevator.jpg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/CV4400/kitchen3.jpg",
+      },
+    ],
     description:
       "2 bedroom apartment of 67,90 m² on the second floor in the Sun Village Cumbuco. It is perfectly located just before the center of Cumbuco.",
+    adress:
+      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt",
   },
   C1616: {
     id: "C1616",
