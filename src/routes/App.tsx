@@ -121,7 +121,7 @@ function App() {
           </div>
           <div className="about-us-content">
             <div className="about-us-img">
-              <img src="../src/assets/logo/logo.jpg" alt="" />
+              <img src="/logo/logo.jpg" alt="" />
             </div>
             <div className="about-us-text">
               <p>

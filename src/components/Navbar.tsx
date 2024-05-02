@@ -17,7 +17,7 @@ export default function Navbar({ scrollActive }: Props) {
       <div className="navbar">
         <div className="logo">
           <a href="/">
-            <img src="../src/assets/logo/logo.jpg" alt="" />
+            <img src="/logo/logo.jpg" alt="" />
           </a>
         </div>
         <div className="title-page">

@@ -10,11 +10,11 @@ export default function Footer() {
           {" "}
           <div className="footer-informations-contacts">
             <a href="mailto:roberto@cumbuco.nl?subject=Hi. I want talk with about the properties&body=I want to know a little more about the properties">
-              <img src="../src/assets/icons/email-icon.png" alt="" />
+              <img src="/icons/email-icon.png" alt="" />
               robert@cumbuco.nl
             </a>
             <a target="_blank" href="https://wa.me/5585986908189">
-              <img src="../src/assets/icons/phone-icon.png" alt="" />
+              <img src="/icons/phone-icon.png" alt="" />
               (85) 98690-8189
             </a>
           </div>

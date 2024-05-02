@@ -2,42 +2,42 @@ export default {
   CV7500: {
     id: "CV7500",
     name: "Beachfront 2 bedroom apartment on the ground floor in Verandas do Mar, includes a 20 m² garden.",
-    imgUrl: "../src/assets/image/CV7500/pool-beach.jpg",
+    imgUrl: "/image/CV7500/pool-beach.jpg",
     price: "850.000",
     // Em BackgroundIMG é preciso passar o path da imagem com o "url", pois será enviado para
     // o arquivo CV7500 para renderizar no front
     BackgroundIMG: [
       {
         // topleft is 350x261
-        topleft: "url(../src/assets//image/CV7500/pool-beach.jpg",
+        topleft: "url(/image/CV7500/pool-beach.jpg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/CV7500/quintal.jpeg",
+        rightcolumn: "url(/image/CV7500/quintal.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CV7500/sala-de-estar.jpeg",
+        downleft: "url(/image/CV7500/sala-de-estar.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets//image/CV7500/praia-piscina.jpg",
+        topleft: "url(/image/CV7500/praia-piscina.jpg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/CV7500/kitchen.jpeg",
+        rightcolumn: "url(/image/CV7500/kitchen.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CV7500/yard.jpeg",
+        downleft: "url(/image/CV7500/yard.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets//image/CV7500/beach.jpg",
+        topleft: "url(/image/CV7500/beach.jpg",
         // rightcolumn is 228x451
         // rightcolumn: ,
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CV7500/deck.jpg",
+        downleft: "url(/image/CV7500/deck.jpg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets//image/CV7500/room.jpeg",
+        topleft: "url(/image/CV7500/room.jpeg",
         // rightcolumn is 228x451
-        // rightcolumn: "url(../src/assets/image/CV7500/",
+        // rightcolumn: "url(/image/CV7500/",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CV7500/room1.jpeg",
+        downleft: "url(/image/CV7500/room1.jpeg",
       },
     ],
     description:
@@ -48,40 +48,40 @@ export default {
   CJ1000: {
     id: "CJ1000",
     name: "Large modern style house right in the center of Cumbuco and at 50 meters from the beach with 7 double rooms with bathrooms",
-    imgUrl: "../src/assets/image/CJ1000/pool-house-deck2-large.jpeg",
+    imgUrl: "/image/CJ1000/pool-house-deck2-large.jpeg",
     price: "850.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
-        topleft: "url(../src/assets//image/CJ1000/pool-house-deck-large.jpeg",
+        topleft: "url(/image/CJ1000/pool-house-deck-large.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/CJ1000/garden.jpeg",
+        rightcolumn: "url(/image/CJ1000/garden.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CJ1000/livingroom-pool.jpeg",
+        downleft: "url(/image/CJ1000/livingroom-pool.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets//image/CJ1000/desk.jpeg",
+        topleft: "url(/image/CJ1000/desk.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/CJ1000/inside-house.jpeg",
+        rightcolumn: "url(/image/CJ1000/inside-house.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CJ1000/house-garage-large.jpeg",
+        downleft: "url(/image/CJ1000/house-garage-large.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets//image/CJ1000/balcony2-large.jpeg",
+        topleft: "url(/image/CJ1000/balcony2-large.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets//image/CJ1000/balcony-large.jpeg",
+        rightcolumn: "url(/image/CJ1000/balcony-large.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CJ1000/kitchen.jpeg",
+        downleft: "url(/image/CJ1000/kitchen.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets//image/CJ1000/pool-house-deck2-large.jpeg",
+        topleft: "url(/image/CJ1000/pool-house-deck2-large.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets//image/CJ1000/house-top.jpeg",
+        rightcolumn: "url(/image/CJ1000/house-top.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CJ1000/beach-kite2.jpeg",
+        downleft: "url(/image/CJ1000/beach-kite2.jpeg",
       },
     ],
     description:
@@ -93,40 +93,40 @@ export default {
   CV4400: {
     id: "CV4400",
     name: "2 bedroom apartment of 67,90 m² on the second floor in the Sun Village Cumbuco.",
-    imgUrl: "../src/assets/image/CV4400/apartment.jpg",
+    imgUrl: "/image/CV4400/apartment.JPG",
     price: "490.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
-        topleft: "url(../src/assets//image/CV4400/room.jpg",
+        topleft: "url(/image/CV4400/room.JPG",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/CV4400/balcony.jpg",
+        rightcolumn: "url(/image/CV4400/balcony.JPG",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CV4400/balcony2.jpg",
+        downleft: "url(/image/CV4400/balcony2.JPG",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets//image/CV4400/pool2.jpg",
+        topleft: "url(/image/CV4400/pool2.JPG",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/CV4400/livingroom4.jpg",
+        rightcolumn: "url(/image/CV4400/livingroom4.JPG",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CV4400/livingroom3.jpg",
+        downleft: "url(/image/CV4400/livingroom3.JPG",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets//image/CV4400/livingroom2.jpg",
+        topleft: "url(/image/CV4400/livingroom2.JPG",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/CV4400/pool2.jpg",
+        rightcolumn: "url(/image/CV4400/pool2.JPG",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CV4400/kitchen.jpg",
+        downleft: "url(/image/CV4400/kitchen.JPG",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets//image/CV4400/livingroom.jpg",
+        topleft: "url(/image/CV4400/livingroom.JPG",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/CV4400/elevator.jpg",
+        rightcolumn: "url(/image/CV4400/elevator.JPG",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CV4400/kitchen3.jpg",
+        downleft: "url(/image/CV4400/kitchen3.JPG",
       },
     ],
     description:
@@ -137,32 +137,32 @@ export default {
   C1616: {
     id: "C1616",
     name: "C1616",
-    imgUrl: "../src/assets/image/C1616/pool-house.jpeg",
+    imgUrl: "/image/C1616/pool-house.jpeg",
     price: "1.600.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/C1616/pool-deck.jpeg",
+        topleft: "url(/image/C1616/pool-deck.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/C1616/pool-garage.jpeg",
+        rightcolumn: "url(/image/C1616/pool-garage.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/C1616/barbecue.jpeg",
+        downleft: "url(/image/C1616/barbecue.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/C1616/pool-house.jpeg",
+        topleft: "url(/image/C1616/pool-house.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/C1616/backyard.jpeg",
+        rightcolumn: "url(/image/C1616/backyard.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/C1616/garage.jpeg",
+        downleft: "url(/image/C1616/garage.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/C1616/lote.jpg",
+        topleft: "url(/image/C1616/lote.jpg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/C1616/pool-house.jpeg",
+        rightcolumn: "url(/image/C1616/pool-house.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/C1616/room.jpeg",
+        downleft: "url(/image/C1616/room.jpeg",
       },
     ],
     description:
@@ -173,16 +173,16 @@ export default {
   C1617: {
     id: "C1617",
     name: "Lot of 820 m² behind C1616",
-    imgUrl: "../src/assets/image/C1617.jpg",
+    imgUrl: "/image/C1617.jpg",
     price: "400.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/C1617.jpg",
+        topleft: "url(/image/C1617.jpg",
         //  rightcolumn is 228x451
-        // rightcolumn: "url(../src/assets/image/C1617/",
+        // rightcolumn: "url(/image/C1617/",
         // downleft is 360x179
-        // downleft: "url(../src/assets//image/C1617/",
+        // downleft: "url(/image/C1617/",
       },
     ],
     description: "Lot of 820 m2 behind C1616.",
@@ -192,32 +192,32 @@ export default {
   Cc1100: {
     id: "Cc1100",
     name: "Cc1100",
-    imgUrl: "../src/assets/image/Cc1100/balcony-pool-beach-large.jpeg",
+    imgUrl: "/image/Cc1100/balcony-pool-beach-large.jpeg",
     price: "1.200.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/Cc1100/balcony-pool-beach-large.jpeg",
+        topleft: "url(/image/Cc1100/balcony-pool-beach-large.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/Cc1100/bathroom.jpeg",
+        rightcolumn: "url(/image/Cc1100/bathroom.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/Cc1100/room.jpeg",
+        downleft: "url(/image/Cc1100/room.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/Cc1100/kitchen2.jpg",
+        topleft: "url(/image/Cc1100/kitchen2.jpg",
         //  rightcolumn is 228x451
-        // rightcolumn: "url(../src/assets/image/Cc1100/livingroom.jpg",
+        // rightcolumn: "url(/image/Cc1100/livingroom.jpg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/Cc1100/pool-beach.jpeg",
+        downleft: "url(/image/Cc1100/pool-beach.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/Cc1100/kitchen.jpg",
+        topleft: "url(/image/Cc1100/kitchen.jpg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/Cc1100/pool-beach.jpg",
+        rightcolumn: "url(/image/Cc1100/pool-beach.jpg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/Cc1100/livingroom.jpg",
+        downleft: "url(/image/Cc1100/livingroom.jpg",
       },
     ],
     description:
@@ -228,16 +228,16 @@ export default {
   C4278: {
     id: "C4278",
     name: "C4278",
-    imgUrl: "../src/assets/image/C4278.jpg",
+    imgUrl: "/image/C4278.jpg",
     price: "6.053.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/C4278.jpg",
+        topleft: "url(/image/C4278.jpg",
         //  rightcolumn is 228x451
-        // rightcolumn: "url(../src/assets/image/C4278/",
+        // rightcolumn: "url(/image/C4278/",
         // downleft is 360x179
-        // downleft: "url(../src/assets//image/C4278/",
+        // downleft: "url(/image/C4278/",
       },
     ],
     description:
@@ -248,57 +248,56 @@ export default {
   CB2030: {
     id: "CB2030",
     name: "CB2030",
-    imgUrl:
-      "../src/assets/image/CB2030/Penthouse and Cumbuco Beach Apartments 046.jpg",
+    imgUrl: "/image/CB2030/Penthouse and Cumbuco Beach Apartments 046.jpg",
     price: "500.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/CB2030/kitchen.jpg",
+        topleft: "url(/image/CB2030/kitchen.jpg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/CB2030/pool-deck.jpg",
+        rightcolumn: "url(/image/CB2030/pool-deck.jpg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CB2030/livingroom.jpg",
+        downleft: "url(/image/CB2030/livingroom.jpg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/CB2030/kitchen.jpg",
+        topleft: "url(/image/CB2030/kitchen.jpg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/CB2030/apartment.jpeg",
+        rightcolumn: "url(/image/CB2030/apartment.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CB2030/livingroom2.jpg",
+        downleft: "url(/image/CB2030/livingroom2.jpg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/CB2030/balcony.jpg",
+        topleft: "url(/image/CB2030/balcony.jpg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/CB2030/room.jpg",
+        rightcolumn: "url(/image/CB2030/room.jpg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CB2030/room2.jpg",
+        downleft: "url(/image/CB2030/room2.jpg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/CB2030/pool.jpg",
+        topleft: "url(/image/CB2030/pool.jpg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/CB2030/room4.jpg",
+        rightcolumn: "url(/image/CB2030/room4.jpg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CB2030/room3.jpg",
+        downleft: "url(/image/CB2030/room3.jpg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/CB2030/pool-deck2.jpg",
+        topleft: "url(/image/CB2030/pool-deck2.jpg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/CB2030/livingroom3.jpg",
+        rightcolumn: "url(/image/CB2030/livingroom3.jpg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CB2030/livingroom3.jpg",
+        downleft: "url(/image/CB2030/livingroom3.jpg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/CB2030/apartment.jpg",
+        topleft: "url(/image/CB2030/apartment.jpg",
         //  rightcolumn is 228x451
-        // rightcolumn: "url(../src/assets/image/CB2030/.jpg",
+        // rightcolumn: "url(/image/CB2030/.jpg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CB2030/room.jpg",
+        downleft: "url(/image/CB2030/room.jpg",
       },
     ],
 
@@ -310,40 +309,40 @@ export default {
   CB1000: {
     id: "CB1000",
     name: "House near the center of Cumbuco on a lot of 920 m2.",
-    imgUrl: "../src/assets/image/CB1000/house.jpeg",
+    imgUrl: "/image/CB1000/house.jpeg",
     price: "1.000.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/CB1000/house.jpeg",
+        topleft: "url(/image/CB1000/house.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/CB1000/livingroom3.jpeg",
+        rightcolumn: "url(/image/CB1000/livingroom3.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CB1000/livingroom.jpeg",
+        downleft: "url(/image/CB1000/livingroom.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/CB1000/garden.jpeg",
+        topleft: "url(/image/CB1000/garden.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/CB1000/deck.jpeg",
+        rightcolumn: "url(/image/CB1000/deck.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CB1000/kitchen.jpeg",
+        downleft: "url(/image/CB1000/kitchen.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/CB1000/house-garden.jpeg",
+        topleft: "url(/image/CB1000/house-garden.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/CB1000/pool3.jpeg",
+        rightcolumn: "url(/image/CB1000/pool3.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CB1000/pool2.jpeg",
+        downleft: "url(/image/CB1000/pool2.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/CB1000/pool-deck.jpeg",
+        topleft: "url(/image/CB1000/pool-deck.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/CB1000/room.jpeg",
+        rightcolumn: "url(/image/CB1000/room.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/CB1000/lote.jpg",
+        downleft: "url(/image/CB1000/lote.jpg",
       },
     ],
     description:
@@ -354,56 +353,56 @@ export default {
   TB2515: {
     id: "TB2515",
     name: "TB2515",
-    imgUrl: "../src/assets/image/TB2515/pool.jpg",
+    imgUrl: "/image/TB2515/pool.jpg",
     price: "180.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/TB2515/pool.jpg",
+        topleft: "url(/image/TB2515/pool.jpg",
         //  rightcolumn is 228x451
-        // rightcolumn: "url(../src/assets/image/TB2515/.jpg",
+        // rightcolumn: "url(/image/TB2515/.jpg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/TB2515/pool-deck2.jpg",
+        downleft: "url(/image/TB2515/pool-deck2.jpg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/TB2515/bathroom.jpg",
+        topleft: "url(/image/TB2515/bathroom.jpg",
         //  rightcolumn is 228x451
-        // rightcolumn: "url(../src/assets/image/TB2515/.jpg",
+        // rightcolumn: "url(/image/TB2515/.jpg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/TB2515/bathroom2.jpg",
+        downleft: "url(/image/TB2515/bathroom2.jpg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/TB2515/kitchen.jpg",
+        topleft: "url(/image/TB2515/kitchen.jpg",
         //  rightcolumn is 228x451
-        // rightcolumn: "url(../src/assets/image/TB2515/.jpg",
+        // rightcolumn: "url(/image/TB2515/.jpg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/TB2515/laundry.jpg",
+        downleft: "url(/image/TB2515/laundry.jpg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/TB2515/livingroom.jpg",
+        topleft: "url(/image/TB2515/livingroom.jpg",
         //  rightcolumn is 228x451
-        // rightcolumn: "url(../src/assets/image/TB2515/.jpg",
+        // rightcolumn: "url(/image/TB2515/.jpg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/TB2515/livingroom2.jpg",
+        downleft: "url(/image/TB2515/livingroom2.jpg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/TB2515/room.jpg",
+        topleft: "url(/image/TB2515/room.jpg",
         //  rightcolumn is 228x451
-        // rightcolumn: "url(../src/assets/image/TB2515/.jpg",
+        // rightcolumn: "url(/image/TB2515/.jpg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/TB2515/room2.jpg",
+        downleft: "url(/image/TB2515/room2.jpg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/TB2515/room3.jpg",
+        topleft: "url(/image/TB2515/room3.jpg",
         //  rightcolumn is 228x451
-        // rightcolumn: "url(../src/assets/image/TB2515/.jpg",
+        // rightcolumn: "url(/image/TB2515/.jpg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/TB2515/room4.jpg",
+        downleft: "url(/image/TB2515/room4.jpg",
       },
     ],
     description:
@@ -414,72 +413,72 @@ export default {
   TB2024: {
     id: "TB2024",
     name: "TB2024",
-    imgUrl: "../src/assets/image/TB2024/house.jpeg",
+    imgUrl: "/image/TB2024/house.jpeg",
     price: "2.000.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/TB2024/pool.jpeg",
+        topleft: "url(/image/TB2024/pool.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/TB2024/pool-sun.jpeg",
+        rightcolumn: "url(/image/TB2024/pool-sun.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/TB2024/room.jpeg",
+        downleft: "url(/image/TB2024/room.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/TB2024/livingroom.jpeg",
+        topleft: "url(/image/TB2024/livingroom.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/TB2024/beach2.jpeg",
+        rightcolumn: "url(/image/TB2024/beach2.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/TB2024/lote.jpg",
+        downleft: "url(/image/TB2024/lote.jpg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/TB2024/livingroom2.jpeg",
+        topleft: "url(/image/TB2024/livingroom2.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/TB2024/livingroom3.jpeg",
+        rightcolumn: "url(/image/TB2024/livingroom3.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/TB2024/livingroom4.jpeg",
+        downleft: "url(/image/TB2024/livingroom4.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/TB2024/livingroom5.jpeg",
+        topleft: "url(/image/TB2024/livingroom5.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/TB2024/pool2.jpeg",
+        rightcolumn: "url(/image/TB2024/pool2.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/TB2024/pool-beach.jpeg",
+        downleft: "url(/image/TB2024/pool-beach.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/TB2024/room5.jpeg",
+        topleft: "url(/image/TB2024/room5.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/TB2024/kitchen2.jpeg",
+        rightcolumn: "url(/image/TB2024/kitchen2.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/TB2024/room6.jpeg",
+        downleft: "url(/image/TB2024/room6.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/TB2024/room5.jpeg",
+        topleft: "url(/image/TB2024/room5.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/TB2024/kitchen3.jpeg",
+        rightcolumn: "url(/image/TB2024/kitchen3.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/TB2024/room4.jpeg",
+        downleft: "url(/image/TB2024/room4.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/TB2024/room6.jpeg",
+        topleft: "url(/image/TB2024/room6.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/TB2024/kitchen.jpeg",
+        rightcolumn: "url(/image/TB2024/kitchen.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/TB2024/room7.jpeg",
+        downleft: "url(/image/TB2024/room7.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/TB2024/room8.jpeg",
+        topleft: "url(/image/TB2024/room8.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/TB2024/house.jpeg",
+        rightcolumn: "url(/image/TB2024/house.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/TB2024/room9.jpeg",
+        downleft: "url(/image/TB2024/room9.jpeg",
       },
     ],
     description:
@@ -490,32 +489,32 @@ export default {
   TB3151: {
     id: "TB3151",
     name: "TB3151",
-    imgUrl: "../src/assets/image/TB3151/pool-apartment.jpeg",
+    imgUrl: "/image/TB3151/pool-apartment.jpeg",
     price: "220.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/TB3151/room.jpeg",
+        topleft: "url(/image/TB3151/room.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/TB3151/room3.jpeg",
+        rightcolumn: "url(/image/TB3151/room3.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/TB3151/pool-apartment.jpeg",
+        downleft: "url(/image/TB3151/pool-apartment.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/TB3151/kitchen.jpeg",
+        topleft: "url(/image/TB3151/kitchen.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/TB3151/livingroom.jpeg",
+        rightcolumn: "url(/image/TB3151/livingroom.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/TB3151/room2.jpeg",
+        downleft: "url(/image/TB3151/room2.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/TB3151/pool-deck.jpeg",
+        topleft: "url(/image/TB3151/pool-deck.jpeg",
         //  rightcolumn is 228x451
-        // rightcolumn: "url(../src/assets/image/TB3151/room.jpeg",
+        // rightcolumn: "url(/image/TB3151/room.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/TB3151/room2.jpeg",
+        downleft: "url(/image/TB3151/room2.jpeg",
       },
     ],
     description:
@@ -526,56 +525,56 @@ export default {
   IC3200: {
     id: "IC3200",
     name: "IC3200",
-    imgUrl: "../src/assets/image/IC3200/pool.jpeg",
+    imgUrl: "/image/IC3200/pool.jpeg",
     price: "340.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/IC3200/kitchen.jpeg",
+        topleft: "url(/image/IC3200/kitchen.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/IC3200/bathroom.jpeg",
+        rightcolumn: "url(/image/IC3200/bathroom.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/IC3200/livingroom3.jpeg",
+        downleft: "url(/image/IC3200/livingroom3.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/IC3200/balcony.jpeg",
+        topleft: "url(/image/IC3200/balcony.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/IC3200/room4.jpeg",
+        rightcolumn: "url(/image/IC3200/room4.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/IC3200/pool.jpeg",
+        downleft: "url(/image/IC3200/pool.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/IC3200/livingroom4.jpeg",
+        topleft: "url(/image/IC3200/livingroom4.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/IC3200/livingroom2.jpeg",
+        rightcolumn: "url(/image/IC3200/livingroom2.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/IC3200/livingroom.jpeg",
+        downleft: "url(/image/IC3200/livingroom.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/IC3200/laundry.jpeg",
+        topleft: "url(/image/IC3200/laundry.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/IC3200/kitchen2.jpeg",
+        rightcolumn: "url(/image/IC3200/kitchen2.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/IC3200/hall2.jpeg",
+        downleft: "url(/image/IC3200/hall2.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/IC3200/main-door.jpeg",
+        topleft: "url(/image/IC3200/main-door.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/IC3200/wall-house.jpeg",
+        rightcolumn: "url(/image/IC3200/wall-house.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/IC3200/pool2.jpeg",
+        downleft: "url(/image/IC3200/pool2.jpeg",
       },
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/IC3200/room.jpeg",
+        topleft: "url(/image/IC3200/room.jpeg",
         //  rightcolumn is 228x451
-        rightcolumn: "url(../src/assets/image/IC3200/room2.jpeg",
+        rightcolumn: "url(/image/IC3200/room2.jpeg",
         // downleft is 360x179
-        downleft: "url(../src/assets//image/IC3200/room6.jpeg",
+        downleft: "url(/image/IC3200/room6.jpeg",
       },
     ],
     description:
@@ -587,16 +586,16 @@ export default {
     id: "c1500",
 
     name: "c1500",
-    imgUrl: "../src/assets/image/c1500.jpg",
+    imgUrl: "/image/c1500.jpg",
     price: "1.500.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
-        topleft: "url(../src/assets/image/c1500.jpg",
+        topleft: "url(/image/c1500.jpg",
         //  rightcolumn is 228x451
-        // rightcolumn: "url(../src/assets/image/IC3200/room2.jpeg",
+        // rightcolumn: "url(/image/IC3200/room2.jpeg",
         // downleft is 360x179
-        // downleft: "url(../src/assets//image/IC3200/room6.jpeg",
+        // downleft: "url(/image/IC3200/room6.jpeg",
       },
     ],
     description:
