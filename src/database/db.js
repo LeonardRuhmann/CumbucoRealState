@@ -309,12 +309,47 @@ export default {
   },
   CB1000: {
     id: "CB1000",
-    name: "CB1000",
-    imgUrl:
-      "../src/assets/image/CB1000/WhatsApp Image 2024-01-15 at 11.45.08.jpeg",
+    name: "House near the center of Cumbuco on a lot of 920 m2.",
+    imgUrl: "../src/assets/image/CB1000/house.jpeg",
     price: "1.000.000",
+    BackgroundIMG: [
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/CB1000/house.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/CB1000/livingroom3.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/CB1000/livingroom.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/CB1000/garden.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/CB1000/deck.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/CB1000/kitchen.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/CB1000/house-garden.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/CB1000/pool3.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/CB1000/pool2.jpeg",
+      },
+      {
+        // topleft is 350x261
+        topleft: "url(../src/assets/image/CB1000/pool-deck.jpeg",
+        //  rightcolumn is 228x451
+        rightcolumn: "url(../src/assets/image/CB1000/room.jpeg",
+        // downleft is 360x179
+        downleft: "url(../src/assets//image/CB1000/lote.jpg",
+      },
+    ],
     description:
       "House near the center of Cumbuco on a lot of 920 m2. The house has 4 bedrooms, two upstairs and two downstairs, 7 bathrooms, kitchen, barbecue, a swimming pool. ",
+    adress:
+      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
   },
   TB2515: {
     id: "TB2515",
