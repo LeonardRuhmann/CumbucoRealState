@@ -1,20 +1,20 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "./routes/App.tsx";
-import ErrorPage from "./error-page.tsx";
-import CV7500 from "./pages/CV7500.tsx";
-import CJ1000 from "./pages/CJ1000.tsx";
-import CV4400 from "./pages/CV4400.tsx";
-import C1616 from "./pages/C1616.tsx";
-import C1617 from "./pages/C1617.tsx";
-import Cc1100 from "./pages/Cc1100.tsx";
-import C4278 from "./pages/C4278.tsx";
-import CB2030 from "./pages/CB2030.tsx";
-import CB1000 from "./pages/CB1000.tsx";
-import TB2515 from "./pages/TB2515.tsx";
-import TB2024 from "./pages/TB2024.tsx";
-import TB3151 from "./pages/TB3151.tsx";
-import IC3200 from "./pages/IC3200.tsx";
-import C1500 from "./pages/c1500.tsx";
+import App from "./routes/App.jsx";
+import ErrorPage from "./error-page.jsx";
+import CV7500 from "./pages/CV7500.jsx";
+import CJ1000 from "./pages/CJ1000.jsx";
+import CV4400 from "./pages/CV4400.jsx";
+import C1616 from "./pages/C1616.jsx";
+import C1617 from "./pages/C1617.jsx";
+import Cc1100 from "./pages/Cc1100.jsx";
+import C4278 from "./pages/C4278.jsx";
+import CB2030 from "./pages/CB2030.jsx";
+import CB1000 from "./pages/CB1000.jsx";
+import TB2515 from "./pages/TB2515.jsx";
+import TB2024 from "./pages/TB2024.jsx";
+import TB3151 from "./pages/TB3151.jsx";
+import IC3200 from "./pages/IC3200.jsx";
+import C1500 from "./pages/c1500.jsx";
 
 export const router = createBrowserRouter([
   {
