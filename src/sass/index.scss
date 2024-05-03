@@ -478,24 +478,10 @@ body {
   // border: 2px solid blue;
   border-radius: 2%;
   box-shadow: #082a58 8px 0px 10px 3px;
-  margin-top: 2%;
+  margin-bottom: 2%;
   h1 {
     font-weight: 400;
     font-size: 250%;
-  }
-}
-
-.properties-adress {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  width: 88%;
-  height: 4%;
-  // border: 2px solid yellow;
-  color: white;
-  font-family: "Open Sans", serif;
-  p {
-    font-size: 150%;
   }
 }
 .properties-description {
@@ -511,30 +497,5 @@ body {
   p {
     font-size: 110%;
     text-align: justify;
-  }
-}
-
-.properties-contacts {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  width: 88%;
-  height: 8%;
-  margin-inline: 2%;
-  // border: 2px solid red;
-  color: white;
-  font-family: "Open Sans", serif;
-  .contact-title {
-    width: 100%;
-    // border: 2px solid yellow;
-    height: 40%;
-    font-size: 240%;
-    border-bottom: 2px solid white;
-  }
-  .contact-content {
-    width: 100%;
-    // border: 2px solid green;
-    height: 50%;
-    font-size: 200%;
   }
 }
