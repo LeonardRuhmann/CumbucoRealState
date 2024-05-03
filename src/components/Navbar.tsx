@@ -66,7 +66,7 @@ export default function Navbar({ scrollActive }: Props) {
                   transform: isOpen ? "rotate(180deg)" : "rotate(0deg)",
                   transition: "transform 0.3s ease-in-out",
                 }}
-                src="../src/assets/icons/seta-baixo.png"
+                src="/icons/seta-baixo.png"
                 alt=""
               />
             </li>

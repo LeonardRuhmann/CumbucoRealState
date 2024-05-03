@@ -23,7 +23,14 @@ export default function Card({ page_path, imgUrl, price, description }: Props) {
           </div>
           <div className="box-button">
             <button>
-              <Link to={page_path}>More Info</Link>
+              <Link
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+                to={page_path}
+              >
+                More Info
+              </Link>
             </button>
           </div>
         </div>
