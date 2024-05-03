@@ -15,6 +15,9 @@ export default function C1617() {
           <div className="properties-description">
             <p>{db.C1617.description}</p>
           </div>
+          <div className="properties-price">
+            <h1>R$ {db.C1617.price}</h1>
+          </div>
           <div className="properties-images">
             {db.C1617.BackgroundIMG.map((item, index) => (
               <LayoutImages
@@ -24,12 +27,6 @@ export default function C1617() {
                 img3={item.downleft}
               />
             ))}
-          </div>
-          <div className="properties-price">
-            <h1>R$ {db.C1617.price}</h1>
-          </div>
-          <div className="properties-adress">
-            <p>{db.C1617.adress}</p>
           </div>
         </div>
       </div>

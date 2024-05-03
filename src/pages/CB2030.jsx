@@ -15,6 +15,9 @@ export default function CB2030() {
           <div className="properties-description">
             <p>{db.CB2030.description}</p>
           </div>
+          <div className="properties-price">
+            <h1>R$ {db.CB2030.price}</h1>
+          </div>
           <div className="properties-images">
             {db.CB2030.BackgroundIMG.map((item, index) => (
               <LayoutImages
@@ -24,12 +27,6 @@ export default function CB2030() {
                 img3={item.downleft}
               />
             ))}
-          </div>
-          <div className="properties-price">
-            <h1>R$ {db.CB2030.price}</h1>
-          </div>
-          <div className="properties-adress">
-            <p>{db.CB2030.adress}</p>
           </div>
         </div>
       </div>

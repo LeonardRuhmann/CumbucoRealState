@@ -15,6 +15,9 @@ export default function Cc1100() {
           <div className="properties-description">
             <p>{db.Cc1100.description}</p>
           </div>
+          <div className="properties-price">
+            <h1>R$ {db.Cc1100.price}</h1>
+          </div>
           <div className="properties-images">
             {db.Cc1100.BackgroundIMG.map((item, index) => (
               <LayoutImages
@@ -24,12 +27,6 @@ export default function Cc1100() {
                 img3={item.downleft}
               />
             ))}
-          </div>
-          <div className="properties-price">
-            <h1>R$ {db.Cc1100.price}</h1>
-          </div>
-          <div className="properties-adress">
-            <p>{db.Cc1100.adress}</p>
           </div>
         </div>
       </div>

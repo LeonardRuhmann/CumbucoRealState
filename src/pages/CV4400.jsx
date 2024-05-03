@@ -15,6 +15,9 @@ export default function CV4400() {
           <div className="properties-description">
             <p>{db.CV4400.description}</p>
           </div>
+          <div className="properties-price">
+            <h1>R$ {db.CV4400.price}</h1>
+          </div>
           <div className="properties-images">
             {db.CV4400.BackgroundIMG.map((item, index) => (
               <LayoutImages
@@ -24,12 +27,6 @@ export default function CV4400() {
                 img3={item.downleft}
               />
             ))}
-          </div>
-          <div className="properties-price">
-            <h1>R$ {db.CV4400.price}</h1>
-          </div>
-          <div className="properties-adress">
-            <p>{db.CV4400.adress}</p>
           </div>
         </div>
       </div>

@@ -15,6 +15,9 @@ export default function CJ1000() {
           <div className="properties-description">
             <p>{db.CJ1000.description}</p>
           </div>
+          <div className="properties-price">
+            <h1>R$ {db.CJ1000.price}</h1>
+          </div>
           <div className="properties-images">
             {db.CJ1000.BackgroundIMG.map((item, index) => (
               <LayoutImages
@@ -24,12 +27,6 @@ export default function CJ1000() {
                 img3={item.downleft}
               />
             ))}
-          </div>
-          <div className="properties-price">
-            <h1>R$ {db.CJ1000.price}</h1>
-          </div>
-          <div className="properties-adress">
-            <p>{db.CJ1000.adress}</p>
           </div>
         </div>
       </div>

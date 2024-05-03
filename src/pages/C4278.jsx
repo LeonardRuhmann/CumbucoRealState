@@ -15,6 +15,9 @@ export default function C4278() {
           <div className="properties-description">
             <p>{db.C4278.description}</p>
           </div>
+          <div className="properties-price">
+            <h1>R$ {db.C4278.price}</h1>
+          </div>
           <div className="properties-images">
             {db.C4278.BackgroundIMG.map((item, index) => (
               <LayoutImages
@@ -24,12 +27,6 @@ export default function C4278() {
                 img3={item.downleft}
               />
             ))}
-          </div>
-          <div className="properties-price">
-            <h1>R$ {db.C4278.price}</h1>
-          </div>
-          <div className="properties-adress">
-            <p>{db.C4278.adress}</p>
           </div>
         </div>
       </div>

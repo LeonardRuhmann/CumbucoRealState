@@ -15,6 +15,9 @@ export default function CV7500() {
           <div className="properties-description">
             <p>{db.CV7500.description}</p>
           </div>
+          <div className="properties-price">
+            <h1>R$ {db.CV7500.price}</h1>
+          </div>
           <div className="properties-images">
             {db.CV7500.BackgroundIMG.map((item, index) => (
               <LayoutImages
@@ -24,12 +27,6 @@ export default function CV7500() {
                 img3={item.downleft}
               />
             ))}
-          </div>
-          <div className="properties-price">
-            <h1>R$ {db.CV7500.price}</h1>
-          </div>
-          <div className="properties-adress">
-            <p>{db.CV7500.adress}</p>
           </div>
         </div>
       </div>
