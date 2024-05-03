@@ -7,7 +7,7 @@ export default function CB1000() {
   return (
     <>
       <Navbar scrollActive={false} />
-      <div style={{ height: "2200px" }} className="main main-properties">
+      <div className="main main-properties">
         <div className="properties-content">
           <div className="properties-title">
             <h1>{db.CB1000.name}</h1>

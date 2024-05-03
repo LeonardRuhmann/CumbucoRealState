@@ -9,7 +9,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 12%;
+  height: 14%;
   font-family: "Open Sans", serif;
   position: fixed;
   top: 0;
@@ -26,7 +26,6 @@ body {
 .navbar .title-page {
   display: flex;
   width: 80%;
-  height: 48%;
   padding-right: 0%;
 }
 .navbar .title-page p {
@@ -41,7 +40,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 30%;
-  height: 76px;
+  height: 100%;
   margin: 0;
   padding-right: 1%;
 }
@@ -368,7 +367,7 @@ body {
 .main-properties {
   justify-content: start;
   align-items: center;
-  height: 1700px;
+  height: 1400px;
 }
 
 .properties-content {
@@ -386,9 +385,10 @@ body {
   align-items: center;
   color: white;
   font-family: "Open Sans", serif;
+  margin-block: 3%;
 }
 .properties-content .properties-title h1 {
-  font-size: 150%;
+  font-size: 290%;
   box-shadow: #082a58 8px 8px 8px 2px;
 }
 
@@ -470,58 +470,13 @@ body {
   width: 88%;
   background-color: #12375a;
   padding: 0.5%;
-  margin-top: 1%;
+  margin-bottom: 3%;
   color: white;
   font-family: "Open Sans", serif;
 }
 .properties-description p {
   font-size: 110%;
   text-align: justify;
-}
-
-.properties-spaces {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 10%;
-  background-color: #1c5984;
-  box-shadow: #082a58 8px 0px 8px 2px;
-  margin-top: 4%;
-}
-.properties-spaces .properties-space-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  width: 10%;
-  height: 100%;
-  margin-inline: 2%;
-}
-.properties-spaces .properties-space-content .space-item-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-bottom: white 2px solid;
-  color: white;
-  width: 100%;
-  height: 30%;
-  font-size: 150%;
-  font-family: "Open Sans", serif;
-  text-shadow: #082a58 1px 5px 3px;
-}
-.properties-spaces .properties-space-content .space-item-number {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-  height: 35%;
-  margin-bottom: 20%;
-  color: white;
-  background-color: #43b14e;
-  border-radius: 30%;
-  font-size: 190%;
-  font-family: "Open Sans", serif;
 }
 
 .properties-contacts {
