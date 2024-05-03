@@ -393,9 +393,10 @@ body {
 }
 
 .noGrid {
-  grid-template-columns: 60% !important;
+  grid-template-columns: 50% 50% !important;
   width: 95% !important;
-  grid-template-rows: auto 50% !important;
+  grid-template-rows: auto !important;
+  height: 210px !important;
 }
 
 .properties-images {
@@ -413,7 +414,7 @@ body {
   grid-template-rows: auto 40%;
   gap: 2%;
   width: 95%;
-  height: 450px;
+  height: 400px;
   margin: 2%;
 }
 .properties-images .properties-container .properties-grid {
@@ -436,7 +437,7 @@ body {
 .properties-price {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   width: 88%;
   height: 5%;
   color: white;

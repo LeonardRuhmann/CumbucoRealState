@@ -7,7 +7,7 @@ export default function IC3200() {
   return (
     <>
       <Navbar scrollActive={false} />
-      <div style={{ height: "2000px" }} className="main main-properties">
+      <div style={{ height: "1700px" }} className="main main-properties">
         <div className="properties-content">
           <div className="properties-title">
             <h1>{db.IC3200.name}</h1>

@@ -7,7 +7,7 @@ export default function TB2515() {
   return (
     <>
       <Navbar scrollActive={false} />
-      <div style={{ height: "2200px" }} className="main main-properties">
+      <div style={{ height: "1200px" }} className="main main-properties">
         <div className="properties-content">
           <div className="properties-title">
             <h1>{db.TB2515.name}</h1>
