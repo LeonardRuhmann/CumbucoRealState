@@ -9,8 +9,8 @@ function App() {
       <LanguageProvider>
         <Navbar scrollActive={true} />
         <MainContent />
+        <Footer />
       </LanguageProvider>
-      <Footer />
     </>
   );
 }

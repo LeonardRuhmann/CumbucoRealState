@@ -28,12 +28,14 @@ export default function Navbar({ scrollActive }: Props) {
           <p className="p2"> Real State</p>
         </div>
         <div className="nav-buttons">
-          <button onClick={() => changeLanguage("pt")}>
-            Mudar para o português
-          </button>
-          <button onClick={() => changeLanguage("en")}>
-            change to english
-          </button>
+          <div className="nav-lang-button">
+            <button onClick={() => changeLanguage("pt")}>
+              <img src="/icons/brasil.png" alt="" />
+            </button>
+            <button onClick={() => changeLanguage("en")}>
+              <img src="/icons/estados-unidos.png" alt="" />
+            </button>
+          </div>
           <ul className="ul-navbar">
             <li>
               {scrollActive ? (
