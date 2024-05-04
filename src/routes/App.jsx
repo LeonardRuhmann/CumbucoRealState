@@ -1,6 +1,6 @@
-import MainContent from "../components/MainContent.jsx";
+import Main from "../components/Main.jsx";
 import { LanguageProvider } from "../context/LanguageContext.jsx";
-import Navbar from "../components/Navbar.tsx";
+import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer.tsx";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
       <LanguageProvider>
         <Navbar scrollActive={true} />
-        <MainContent />
+        <Main />
         <Footer />
       </LanguageProvider>
     </>

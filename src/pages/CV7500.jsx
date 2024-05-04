@@ -1,9 +1,12 @@
+import { useContext } from "react";
 import Footer from "../components/Footer.tsx";
-import Navbar from "../components/Navbar.tsx";
+import Navbar from "../components/Navbar.jsx";
 import LayoutImages from "../components/subcomponents/LayoutImages.tsx";
 import db from "../database/db.js";
+import { useLanguage } from "../context/LanguageContext.jsx";
 
 export default function CV7500() {
+  const { lang } = useLanguage();
   return (
     <>
       <Navbar scrollActive={false} />
@@ -13,7 +16,7 @@ export default function CV7500() {
             <h1>{db.CV7500.name}</h1>
           </div>
           <div className="properties-description">
-            <p>{db.CV7500.description.pt}</p>
+            <p>{db.CV7500.description[lang]}</p>
           </div>
           <div className="properties-price">
             <h1>R$ {db.CV7500.price}</h1>

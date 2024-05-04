@@ -1,7 +1,7 @@
-import { LanguageContext } from "../context/LanguageContext";
+import { LanguageContext } from "../context/LanguageContext.jsx";
 import { useState, useContext } from "react";
-import SectionCard from "../components/SectionCard.tsx";
-import Card from "../components/subcomponents/Card.tsx";
+import SectionCard from "./SectionCard.tsx";
+import Card from "./subcomponents/Card.tsx";
 import "../css/index.css";
 import db from "../database/db.js";
 

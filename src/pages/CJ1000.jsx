@@ -1,5 +1,5 @@
 import Footer from "../components/Footer.tsx";
-import Navbar from "../components/Navbar.tsx";
+import Navbar from "../components/Navbar.jsx";
 import LayoutImages from "../components/subcomponents/LayoutImages.tsx";
 import db from "../database/db.js";
 

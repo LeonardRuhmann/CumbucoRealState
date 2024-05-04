@@ -1,20 +1,14 @@
 import { useContext, useState } from "react";
+import { LanguageContext } from "../context/LanguageContext.jsx";
 import { Link } from "react-scroll";
-import { LanguageContext } from "../context/LanguageContext";
 
-type Props = {
-  scrollActive: boolean;
-};
-
-export default function Navbar({ scrollActive }: Props) {
+export default function NavbarContent({ scrollActive }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
-
   const { changeLanguage } = useContext(LanguageContext);
-
   return (
     <>
       <div className="navbar">
