@@ -40,10 +40,10 @@ export default {
         downleft: "url(/image/CV7500/room1.jpeg",
       },
     ],
-    description:
-      " Beachfront 2 bedroom apartment on the ground floor in Verandas do Mar, includes a 20 m² garden. ",
-    adress:
-      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
+    description: {
+      en: " Beachfront 2 bedroom apartment on the ground floor in Verandas do Mar, includes a 20 m² garden. ",
+      pt: "Apartamento de dois quartos à beira-mar no térreo em Verandas do Mar, inclui um jardim de 20 m².",
+    },
   },
   CJ1000: {
     id: "CJ1000",
@@ -84,8 +84,11 @@ export default {
         downleft: "url(/image/CJ1000/beach-kite2.jpeg",
       },
     ],
-    description:
-      "Large modern style house right in the center of Cumbuco and at 50 meters from the beach with 7 double rooms with bathrooms, a spacious separate kitchen house with toilet facility, a garage, carport, a beautiful pool and a tropical garden.",
+    description: {
+      pt: "Casa grande, moderna e com estilo, bem no centro de Cumbuco e a 50 metros da praia, com 7 quartos duplos com banheiros, uma casa de cozinha separada e espaçosa com instalações sanitárias, uma garagem, estacionamento coberto, uma bela piscina e um jardim tropical.",
+      en: "Large modern style house right in the center of Cumbuco and at 50 meters from the beach with 7 double rooms with bathrooms, a spacious separate kitchen house with toilet facility, a garage, carport, a beautiful pool and a tropical garden.",
+    },
+
     adress:
       "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
   },

@@ -13,7 +13,7 @@ export default function CV7500() {
             <h1>{db.CV7500.name}</h1>
           </div>
           <div className="properties-description">
-            <p>{db.CV7500.description}</p>
+            <p>{db.CV7500.description.pt}</p>
           </div>
           <div className="properties-price">
             <h1>R$ {db.CV7500.price}</h1>

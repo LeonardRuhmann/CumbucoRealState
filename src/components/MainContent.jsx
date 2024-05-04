@@ -1,14 +1,15 @@
-import Footer from "../components/Footer.jsx";
-import Navbar from "../components/Navbar";
-import SectionCard from "../components/SectionCard";
-import Card from "../components/subcomponents/Card";
+import { LanguageContext } from "../context/LanguageContext";
+import { useState, useContext } from "react";
+import SectionCard from "../components/SectionCard.tsx";
+import Card from "../components/subcomponents/Card.tsx";
 import "../css/index.css";
 import db from "../database/db.js";
 
-function App() {
+export default function MainContent() {
+  const { lang } = useContext(LanguageContext);
+
   return (
     <>
-      <Navbar scrollActive={true} />
       <div className="main">
         {/* Esse id chamado properties-scroll foi colocado para quando clicado na li da navbar 
         ele possa ser scrollado para a parte de vendas */}
@@ -19,13 +20,13 @@ function App() {
               page_path={`/${db.CV7500.id}`}
               imgUrl={db.CV7500.imgUrl}
               price={db.CV7500.price}
-              description={db.CV7500.description}
+              description={db.CV7500.description[lang]}
             />
             <Card
               page_path={`/${db.CJ1000.id}`}
               imgUrl={db.CJ1000.imgUrl}
               price={db.CJ1000.price}
-              description={db.CJ1000.description}
+              description={db.CJ1000.description[lang]}
             />
             <Card
               page_path={`/${db.CV4400.id}`}
@@ -142,9 +143,6 @@ function App() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
-
-export default App;
