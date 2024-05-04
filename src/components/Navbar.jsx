@@ -8,7 +8,7 @@ export default function NavbarContent({ scrollActive }) {
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
-  const { changeLanguage } = useContext(LanguageContext);
+  const { changeLanguage, lang } = useContext(LanguageContext);
   return (
     <>
       <div className="navbar">
@@ -24,10 +24,10 @@ export default function NavbarContent({ scrollActive }) {
         <div className="nav-buttons">
           <div className="nav-lang-button">
             <button onClick={() => changeLanguage("pt")}>
-              <img src="/icons/brasil.png" alt="" />
+              <img src="/icons/brasil-24.png" alt="" />
             </button>
             <button onClick={() => changeLanguage("en")}>
-              <img src="/icons/estados-unidos.png" alt="" />
+              <img src="/icons/estados-unidos-24.png" alt="" />
             </button>
           </div>
           <ul className="ul-navbar">
@@ -39,10 +39,10 @@ export default function NavbarContent({ scrollActive }) {
                   offset={-70}
                   duration={700}
                 >
-                  Properties
+                  {lang === "pt" ? "Propriedades" : "Properties"}
                 </Link>
               ) : (
-                <a href="/">Properties</a>
+                <a href="/">{lang === "pt" ? "Propriedades" : "Properties"}</a>
               )}
             </li>
             <li>
@@ -53,17 +53,18 @@ export default function NavbarContent({ scrollActive }) {
                   offset={-90}
                   duration={700}
                 >
-                  About us
+                  {lang === "pt" ? "Sobre nós" : "About us"}
                 </Link>
               ) : (
-                <a href="/">About Us</a>
+                <a href="/"> {lang === "pt" ? "Sobre nós" : "About us"}</a>
               )}
             </li>
             <li
               style={{ display: "flex", alignItems: "center" }}
               onClick={toggleDropdown}
             >
-              Contacts{" "}
+              {lang === "pt" ? "Contatos" : "Contacts"}
+
               <img
                 style={{
                   width: "15%",

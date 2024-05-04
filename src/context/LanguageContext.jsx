@@ -18,7 +18,7 @@ export const LanguageProvider = ({ children }) => {
 export const useLanguage = () => {
   const context = useContext(LanguageContext);
   if (context === undefined) {
-    throw new Error("useLanguage must be used whitin a AuthLanguageProvider");
+    throw new Error("useLanguage must be used whitin a LanguageProvider");
   }
   return context;
 };

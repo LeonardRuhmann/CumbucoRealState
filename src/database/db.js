@@ -132,10 +132,10 @@ export default {
         downleft: "url(/image/CV4400/kitchen3.JPG",
       },
     ],
-    description:
-      "2 bedroom apartment of 67,90 m² on the second floor in the Sun Village Cumbuco. It is perfectly located just before the center of Cumbuco.",
-    adress:
-      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt",
+    description: {
+      pt: "Apartamento de 2 quartos com 67,90 m² no segundo andar no Sun Village Cumbuco. Está perfeitamente localizado logo antes do centro de Cumbuco.",
+      en: "2 bedroom apartment of 67,90 m² on the second floor in the Sun Village Cumbuco. It is perfectly located just before the center of Cumbuco.",
+    },
   },
   C1616: {
     id: "C1616",
@@ -168,10 +168,10 @@ export default {
         downleft: "url(/image/C1616/room.jpeg",
       },
     ],
-    description:
-      "Large house with 6 air-conditioned suites on a lot of 820 m2. At just 100 meters from the center of Cumbuco, perfect to turn in to a pousada.",
-    adress:
-      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
+    description: {
+      pt: "Casa grande com 6 suítes com ar-condicionado em um terreno de 820 m2. A apenas 100 metros do centro de Cumbuco, perfeito para transformar em uma pousada",
+      en: "Large house with 6 air-conditioned suites on a lot of 820 m2. At just 100 meters from the center of Cumbuco, perfect to turn in to a pousada.",
+    },
   },
   C1617: {
     id: "C1617",
@@ -188,9 +188,10 @@ export default {
         // downleft: "url(/image/C1617/",
       },
     ],
-    description: "Lot of 820 m2 behind C1616.",
-    adress:
-      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
+    description: {
+      pt: "Lote de 820m² atrás do C1616",
+      en: "Lot of 820m² behind C1616.",
+    },
   },
   Cc1100: {
     id: "Cc1100",
@@ -223,10 +224,10 @@ export default {
         downleft: "url(/image/Cc1100/livingroom.JPG",
       },
     ],
-    description:
-      "The Beach Sun Cumbuco condominium is built on 3440 m2 of land with 86 meters beachfront. The apartment for sale has 120 m2 and is on the ground floor on the last block. The price includes all furniture. ",
-    adress:
-      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
+    description: {
+      pt: "O condomínio Beach Sun Cumbuco é construído em 3440 m2 de terreno com 86 metros de frente para a praia. O apartamento à venda tem 120 m2 e está no térreo no último bloco. O preço inclui todos os móveis.",
+      en: "The Beach Sun Cumbuco condominium is built on 3440 m2 of land with 86 meters beachfront. The apartment for sale has 120 m2 and is on the ground floor on the last block. The price includes all furniture. ",
+    },
   },
   C4278: {
     id: "C4278",
@@ -243,10 +244,10 @@ export default {
         // downleft: "url(/image/C4278/",
       },
     ],
-    description:
-      "Beachfront land in Cumbuco, 5 lots with a total of 4278 m², beachfront is 63,46 meter. The price is 255 Euro per m²",
-    adress:
-      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
+    description: {
+      pt: "Terreno à beira-mar em Cumbuco, 5 lotes com um total de 4278 m², a frente para a praia mede 63,46 metros. O preço é de 255 euros por m²",
+      en: "Beachfront land in Cumbuco, 5 lots with a total of 4278 m², beachfront is 63,46 meter. The price is 255 Euro per m²",
+    },
   },
   CB2030: {
     id: "CB2030",
@@ -304,10 +305,10 @@ export default {
       },
     ],
 
-    description:
-      "2 bedroom apartment of 67 m², top floor, in the Royal Beach condominium, right in the center of Cumbuco. ",
-    adress:
-      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
+    description: {
+      pt: "Apartamento de 2 quartos com 67 m², último andar, no condomínio Royal Beach, bem no centro de Cumbuco.",
+      en: "2 bedroom apartment of 67 m², top floor, in the Royal Beach condominium, right in the center of Cumbuco. ",
+    },
   },
   CB1000: {
     id: "CB1000",
@@ -348,10 +349,10 @@ export default {
         downleft: "url(/image/CB1000/lote.jpg",
       },
     ],
-    description:
-      "House near the center of Cumbuco on a lot of 920 m2. The house has 4 bedrooms, two upstairs and two downstairs, 7 bathrooms, kitchen, barbecue, a swimming pool. ",
-    adress:
-      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
+    description: {
+      pt: "Casa perto do centro de Cumbuco em um terreno de 920 m². A casa tem 4 quartos, dois no andar de cima e dois no térreo, 7 banheiros, cozinha, churrasqueira e uma piscina.",
+      en: "House near the center of Cumbuco on a lot of 920 m2. The house has 4 bedrooms, two upstairs and two downstairs, 7 bathrooms, kitchen, barbecue, a swimming pool. ",
+    },
   },
   TB2515: {
     id: "TB2515",
@@ -408,10 +409,10 @@ export default {
         downleft: "url(/image/TB2515/room4.jpg",
       },
     ],
-    description:
-      "6 furnished 4 bedroom apartments of 103 to 120 m² in the luxurious Sheyliane condominium in Tabuba.",
-    adress:
-      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
+    description: {
+      pt: "6 apartamentos mobiliados de 4 quartos, com tamanhos de 103 a 120 m², no luxuoso condomínio Sheyliane em Tabuba.",
+      en: "6 furnished 4 bedroom apartments of 103 to 120 m² in the luxurious Sheyliane condominium in Tabuba.",
+    },
   },
   TB2024: {
     id: "TB2024",
@@ -484,10 +485,10 @@ export default {
         downleft: "url(/image/TB2024/room9.jpeg",
       },
     ],
-    description:
-      "Luxury beachfront house in Tabuba, completely renovated in 2023. There are 4 large suites, the master bedroom has a large jacuzzi. The lot is 1750 m2.",
-    adress:
-      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
+    description: {
+      pt: "Casa de luxo à beira-mar em Tabuba, completamente renovada em 2023. São 4 suítes grandes, sendo que o quarto principal tem uma grande jacuzzi. O terreno tem 1750m².",
+      en: "Luxury beachfront house in Tabuba, completely renovated in 2023. There are 4 large suites, the master bedroom has a large jacuzzi. The lot is 1750m².",
+    },
   },
   TB3151: {
     id: "TB3151",
@@ -520,10 +521,10 @@ export default {
         downleft: "url(/image/TB3151/room2.jpeg",
       },
     ],
-    description:
-      "Recently renovated 3 bedroom apartment of 110 m² 3 bedroms, 3 bathrooms, kitchen and a large living room in the Esplanada da Tabuba condominium. ",
-    adress:
-      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
+    description: {
+      pt: "Recentemente renovado, apartamento de 3 quartos com 110 m², 3 quartos, 3 banheiros, cozinha e uma sala grande no condomínio Esplanada da Tabuba.",
+      en: "Recently renovated 3 bedroom apartment of 110 m² 3 bedroms, 3 bathrooms, kitchen and a large living room in the Esplanada da Tabuba condominium. ",
+    },
   },
   IC3200: {
     id: "IC3200",
@@ -580,10 +581,10 @@ export default {
         downleft: "url(/image/IC3200/room6.jpeg",
       },
     ],
-    description:
-      "House with 4 bedrooms (of which 2 are suites), one common bathroom, large veranda, swimmingpool on a lot of 380 m² near the beach in Icarai. ",
-    adress:
-      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
+    description: {
+      pt: "Casa com 4 quartos (sendo 2 suítes), um banheiro comum, ampla varanda, piscina em um terreno de 380 m² perto da praia em Icaraí.",
+      en: "House with 4 bedrooms (of which 2 are suites), one common bathroom, large veranda, swimmingpool on a lot of 380 m² near the beach in Icarai. ",
+    },
   },
   c1500: {
     id: "c1500",
@@ -601,9 +602,9 @@ export default {
         // downleft: "url(/image/IC3200/room6.jpeg",
       },
     ],
-    description:
-      "3242 m2 of land very near the Lagoa de Cauipe. The land has a matricula.",
-    adress:
-      "Av. Coqueiros Lorem ipsum dolor sit amet consectetur, adipisicing elit Sunt,",
+    description: {
+      pt: "3242m² de terreno muito próximo à Lagoa de Cauipe. O terreno possui matrícula.",
+      en: "3242m² of land very near the Lagoa de Cauipe. The land has a matricula.",
+    },
   },
 };

@@ -2,8 +2,11 @@ import Footer from "../components/Footer.tsx";
 import Navbar from "../components/Navbar.jsx";
 import LayoutImages from "../components/subcomponents/LayoutImages.tsx";
 import db from "../database/db.js";
-
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext.jsx";
 export default function CV4400() {
+  const { lang } = useContext(LanguageContext);
+
   return (
     <>
       <Navbar scrollActive={false} />
@@ -13,7 +16,7 @@ export default function CV4400() {
             <h1>{db.CV4400.name}</h1>
           </div>
           <div className="properties-description">
-            <p>{db.CV4400.description}</p>
+            <p>{db.CV4400.description[lang]}</p>
           </div>
           <div className="properties-price">
             <h1>R$ {db.CV4400.price}</h1>

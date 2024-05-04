@@ -1,4 +1,6 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { LanguageContext } from "../../context/LanguageContext";
 
 export type Props = {
   page_path: string;
@@ -8,6 +10,7 @@ export type Props = {
 };
 
 export default function Card({ page_path, imgUrl, price, description }: Props) {
+  const { lang } = useContext(LanguageContext);
   return (
     <>
       <div className="card">
@@ -16,7 +19,7 @@ export default function Card({ page_path, imgUrl, price, description }: Props) {
             <img src={imgUrl} alt="" />
           </div>
           <div className="box-price">
-            <p>Price: R${price}</p>
+            {lang === "pt" ? <p>Preço: R${price}</p> : <p>Price: R${price}</p>}
           </div>
           <div className="box-description">
             <p>{description}</p>
@@ -29,7 +32,7 @@ export default function Card({ page_path, imgUrl, price, description }: Props) {
                 }}
                 to={page_path}
               >
-                More Info
+                {lang === "pt" ? "Saber Mais" : "More Info"}
               </Link>
             </button>
           </div>

@@ -1,4 +1,8 @@
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
+
 export default function Footer() {
+  const { lang } = useContext(LanguageContext);
   return (
     <>
       <div className="footer">
@@ -19,12 +23,20 @@ export default function Footer() {
             </a>
           </div>
           <div className="footer-informations-links">
-            <a href="">Terms of use</a>
-            <a href="#">Privacy Policy</a>
+            <a href="">{lang === "pt" ? "Termos de uso" : "Terms of use"}</a>
+            <a href="#">
+              {lang === "pt" ? "Políticas de Privacidade" : "Privacy Policy"}
+            </a>
           </div>
         </div>
         <div className="footer-end">
-          <p> © 2024 Cumbuco Real State - Todos os Direitos Reservados</p>
+          <p>
+            {" "}
+            © 2024 Cumbuco Real State -{" "}
+            {lang === "pt"
+              ? "Todos os direitos reservados"
+              : "All rights reserved"}
+          </p>
         </div>
       </div>
     </>
