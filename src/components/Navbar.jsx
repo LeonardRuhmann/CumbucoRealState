@@ -27,7 +27,7 @@ export default function NavbarContent({ scrollActive }) {
               <img src="/icons/brasil-24.png" alt="" />
             </button>
             <button onClick={() => changeLanguage("en")}>
-              <img src="/icons/estados-unidos-24.png" alt="" />
+              <img src="/icons/reino-unido-24.png" alt="" />
             </button>
           </div>
           <ul className="ul-navbar">

@@ -65,8 +65,8 @@ export default function MainContent() {
             <Card
               page_path={`/${db.CB2030.id}`}
               imgUrl={db.CB2030.imgUrl}
-              price={db.Cc1100.price}
-              description={db.Cc1100.description[lang]}
+              price={db.CB2030.price}
+              description={db.CB2030.description[lang]}
             />
             <Card
               page_path={`/${db.CB1000.id}`}
