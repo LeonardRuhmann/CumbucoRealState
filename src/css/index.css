@@ -577,9 +577,12 @@ body {
     box-shadow: #082a58 0px 0px 100px 20px;
   }
   .dropdown-menu {
-    top: 67% !important;
+    top: 68% !important;
     right: 29% !important;
     left: 29% !important;
+  }
+  .dropdown-menu .dropdown-items {
+    font-size: 70%;
   }
   .ul-navbar {
     position: absolute;
