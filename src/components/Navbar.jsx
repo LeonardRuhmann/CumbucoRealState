@@ -42,7 +42,7 @@ export default function NavbarContent({ scrollActive }) {
                 setMenuIsOpen(!menuIsOpen);
               }}
             >
-              <img src="/public/icons/menu-hamburguer50.png" alt="" />
+              <img src="/icons/menu-hamburguer50.png" alt="" />
             </button>
           </div>
           <ul className={`ul-navbar ${menuIsOpen ? "menu-active" : ""}`}>
