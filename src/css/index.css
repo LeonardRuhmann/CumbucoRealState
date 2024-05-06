@@ -567,7 +567,7 @@ body {
   }
   .menu-active {
     right: 0 !important;
-    top: -168% !important;
+    top: -18% !important;
     align-items: center !important;
     height: 50vh !important;
     transition: 0.3s ease;
@@ -628,6 +628,13 @@ body {
   }
   .title-page {
     font-size: 70% !important;
+  }
+  .main-properties {
+    height: 1400px !important;
+  }
+  .properties-content {
+    justify-content: center;
+    height: 100%;
   }
 }
 

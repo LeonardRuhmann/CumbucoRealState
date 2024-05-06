@@ -8,9 +8,7 @@ function App() {
   return (
     <>
       <LanguageProvider>
-        <MenuHamburguerContextProvider>
-          <Navbar scrollActive={true} />
-        </MenuHamburguerContextProvider>
+        <Navbar scrollActive={true} />
         <Main />
         <Footer />
       </LanguageProvider>
