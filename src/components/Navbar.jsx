@@ -1,6 +1,7 @@
 import { useContext, useState } from "react";
 import { LanguageContext } from "../context/LanguageContext.jsx";
 import { Link } from "react-scroll";
+import { MenuContext } from "../context/MenuContext.jsx";
 
 export default function NavbarContent({ scrollActive }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,6 +10,7 @@ export default function NavbarContent({ scrollActive }) {
     setIsOpen(!isOpen);
   };
   const { changeLanguage, lang } = useContext(LanguageContext);
+  const { menuIsOpen, setMenuIsOpen } = useContext(MenuContext);
   return (
     <>
       <div className="navbar">
@@ -30,7 +32,20 @@ export default function NavbarContent({ scrollActive }) {
               <img src="/icons/reino-unido-24.png" alt="" />
             </button>
           </div>
-          <ul className="ul-navbar">
+          <div className="menu-hamburguer">
+            <button
+              style={{
+                transform: menuIsOpen ? "rotate(90deg)" : "rotate(0deg)",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onClick={() => {
+                setMenuIsOpen(!menuIsOpen);
+              }}
+            >
+              <img src="/public/icons/menu-hamburguer50.png" alt="" />
+            </button>
+          </div>
+          <ul className={`ul-navbar ${menuIsOpen ? "menu-active" : ""}`}>
             <li>
               {scrollActive ? (
                 <Link

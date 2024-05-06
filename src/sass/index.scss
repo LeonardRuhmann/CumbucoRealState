@@ -65,6 +65,11 @@ body {
         }
       }
     }
+
+    .menu-hamburguer {
+      display: none;
+    }
+
     .ul-navbar {
       display: flex;
       align-items: end;
@@ -129,8 +134,7 @@ body {
 
   .section-properties {
     width: 100%;
-    // border: 2px solid red;
-    height: 600px;
+    height: 88%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -156,13 +160,11 @@ body {
       margin-bottom: 2%;
       width: 100%;
       height: 85%;
-      // border: 2px solid yellow;
       .card {
         display: flex;
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
-        // border: 2px solid rgb(255, 255, 255);
         border-radius: 20px;
         width: 23%;
         height: 101%;
@@ -267,7 +269,7 @@ body {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 12%;
+  height: 10%;
 
   .about-us-title {
     display: flex;
@@ -517,5 +519,145 @@ body {
   p {
     font-size: 110%;
     text-align: justify;
+  }
+}
+
+// Media queries do index.css
+
+@media (max-width: 2756px) and (min-width: 1480px) {
+  .main {
+    height: 6500px;
+  }
+  .section-cards {
+    height: 14% !important;
+  }
+  .card {
+    width: 25% !important;
+  }
+  .box-description p {
+    font-size: 147% !important;
+  }
+  .box-price p {
+    font-size: 251% !important;
+  }
+  .about-us p {
+    font-size: 154% !important;
+  }
+  li {
+    font-size: 150%;
+  }
+  button a,
+  .footer-informations-links a {
+    font-size: 150% !important;
+  }
+  .footer-informations-contacts a {
+    font-size: 165% !important;
+  }
+  button img {
+    width: 60% !important;
+  }
+}
+
+@media (max-width: 1100px) and (min-width: 830px) {
+  li {
+    font-size: 80% !important;
+  }
+  .box-description p {
+    font-size: 80% !important;
+  }
+  .box-price p {
+    font-size: 110% !important;
+  }
+  .about-us-text p {
+    font-size: 95% !important;
+  }
+  button img {
+    width: 80%;
+  }
+}
+// Mobile
+@media (max-width: 829px) and (min-width: 400px) {
+  .nav-buttons {
+    width: 30% !important;
+    justify-content: space-between !important;
+  }
+
+  .nav-lang-button {
+    width: 30% !important;
+  }
+
+  // Estlização para a lógica completa do menu hamburguer e animações
+  .menu-hamburguer {
+    display: flex !important;
+    width: 20%;
+    z-index: 10;
+    button {
+      width: 100%;
+      height: 100%;
+      background: none;
+      border: 0;
+    }
+  }
+  .menu-active {
+    right: 0 !important;
+    top: -168% !important;
+    align-items: center !important;
+    height: 50vh !important;
+    transition: 0.3s ease;
+    background-color: #ffffff;
+    flex-direction: column;
+    padding-block: 300px !important;
+    box-shadow: #082a58 0px 0px 100px 20px;
+  }
+  .dropdown-menu {
+    top: 67% !important;
+    right: 29% !important;
+    left: 29% !important;
+  }
+  .ul-navbar {
+    position: absolute;
+    top: -1000%;
+  }
+  // Estlização para a lógica completa do menu hamburguer e animações
+
+  .main {
+    height: 7000px !important;
+  }
+
+  .section-cards {
+    flex-direction: column;
+  }
+
+  .title-properties h1 {
+    padding-block: 10% !important;
+  }
+
+  .card {
+    width: 70% !important;
+  }
+  .box-description p {
+    font-size: 60% !important;
+  }
+  .box-price p {
+    font-size: 110% !important;
+  }
+  .about-us-text p {
+    font-size: 75% !important;
+  }
+  .about-us-content {
+    height: 41% !important;
+  }
+
+  button img {
+    width: 80%;
+  }
+  .footer-informations-links a {
+    font-size: 50% !important;
+  }
+  .footer-informations-contacts a {
+    font-size: 80% !important;
+  }
+  .title-page {
+    font-size: 70% !important;
   }
 }

@@ -4,12 +4,14 @@ import Navbar from "../components/Navbar.jsx";
 import LayoutImages from "../components/subcomponents/LayoutImages.tsx";
 import db from "../database/db.js";
 import { useLanguage } from "../context/LanguageContext.jsx";
-
+import { MenuHamburguerContextProvider } from "../context/MenuContext.jsx";
 export default function CV7500() {
   const { lang } = useLanguage();
   return (
     <>
-      <Navbar scrollActive={false} />
+      <MenuHamburguerContextProvider>
+        <Navbar scrollActive={false} />
+      </MenuHamburguerContextProvider>
       <div className="main main-properties">
         <div className="properties-content">
           <div className="properties-title">
