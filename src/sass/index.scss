@@ -466,8 +466,8 @@ body {
     grid-template-columns: 60% auto;
     grid-template-rows: auto 40%;
     gap: 2%;
+    height: 420px;
     width: 95%;
-    height: 400px;
     margin: 2%;
 
     .properties-grid {
@@ -524,10 +524,12 @@ body {
 
 // Media queries do index.css
 
+// 4k
 @media (max-width: 2756px) and (min-width: 1480px) {
   .main {
     height: 6500px;
   }
+
   .section-cards {
     height: 14% !important;
   }
@@ -556,8 +558,17 @@ body {
   button img {
     width: 60% !important;
   }
+  .main-properties {
+    height: 4500px !important;
+  }
+  .properties-description {
+    font-size: 180%;
+  }
+  .properties-container {
+    height: 1200px !important ;
+  }
 }
-
+// Laptop
 @media (max-width: 1100px) and (min-width: 830px) {
   li {
     font-size: 80% !important;
@@ -578,7 +589,7 @@ body {
 // Mobile
 @media (max-width: 829px) {
   .title-page p {
-    font-size: 140% !important;
+    font-size: 100% !important;
   }
   .logo {
     width: 10% !important;
@@ -676,8 +687,8 @@ body {
   .footer-informations-contacts a {
     font-size: 55% !important;
   }
-  .title-page {
-    font-size: 70% !important;
+  .footer-end {
+    font-size: 45%;
   }
   // section of .main-properties
   .main-properties {
@@ -691,5 +702,8 @@ body {
 
   .properties-images {
     grid-template-columns: 1fr !important;
+  }
+  #properties-large {
+    height: 3000px !important;
   }
 }
