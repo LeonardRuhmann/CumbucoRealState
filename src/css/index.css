@@ -577,6 +577,7 @@ body {
     box-shadow: #082a58 0px 0px 100px 20px;
   }
   .dropdown-menu {
+    position: static !important;
     top: 68% !important;
     right: 29% !important;
     left: 29% !important;
@@ -633,11 +634,14 @@ body {
     font-size: 70% !important;
   }
   .main-properties {
-    height: 1400px !important;
+    height: 2400px !important;
   }
   .properties-content {
     justify-content: center;
     height: 100%;
+  }
+  .properties-images {
+    grid-template-columns: 1fr !important;
   }
 }
 
