@@ -641,7 +641,7 @@ body {
   // Estlização para a lógica completa do menu hamburguer e animações
 
   .main {
-    height: 8500px !important;
+    height: 5500px !important;
   }
 
   .section-properties {
@@ -650,12 +650,15 @@ body {
 
   .section-cards {
     flex-direction: column;
-    height: 15% !important;
+    height: 1200px !important;
     justify-content: start !important;
+  }
+  .section-cards-small {
+    height: 500px !important;
   }
   .card {
     width: 70% !important;
-    height: 30% !important;
+    height: 100% !important;
   }
   .box-description p {
     font-size: 60% !important;
@@ -663,14 +666,24 @@ body {
   .box-price p {
     font-size: 110% !important;
   }
+
   .about-us {
-    height: 5% !important;
+    height: 12% !important;
   }
   .about-us-text p {
-    font-size: 50% !important;
+    font-size: 73% !important;
+    font-weight: bold;
+  }
+  .about-us-title {
+    height: 5% !important;
   }
   .about-us-content {
-    height: 41% !important;
+    height: 61% !important;
+    width: 90% !important;
+    background-color: white;
+  }
+  .about-us-img img {
+    height: 40% !important;
   }
 
   button img {
@@ -679,8 +692,14 @@ body {
   .footer-informations-links a {
     font-size: 50% !important;
   }
+  .footer-informations-contacts {
+    width: 100% !important;
+  }
   .footer-informations-contacts a {
-    font-size: 55% !important;
+    font-size: 85% !important;
+    img {
+      width: 12%;
+    }
   }
   .footer-end {
     font-size: 45%;

@@ -98,7 +98,7 @@ export default function MainContent() {
             />
           </div>
           <SectionCard title={"Icaraí"} />
-          <div className="section-cards">
+          <div className="section-cards section-cards-small">
             <Card
               page_path={`/${db.IC3200.id}`}
               imgUrl={db.IC3200.imgUrl}
@@ -107,7 +107,7 @@ export default function MainContent() {
             />
           </div>
           <SectionCard title={"Cauipe"} />
-          <div className="section-cards">
+          <div className="section-cards  section-cards-small">
             <Card
               page_path={`/${db.c1500.id}`}
               imgUrl={db.c1500.imgUrl}
