@@ -136,7 +136,6 @@ body {
     height: 88%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-direction: column;
 
     .title-properties {
@@ -652,6 +651,7 @@ body {
   .section-cards {
     flex-direction: column;
     height: 15% !important;
+    justify-content: start !important;
   }
   .card {
     width: 70% !important;
