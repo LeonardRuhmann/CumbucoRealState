@@ -11,7 +11,7 @@ body {
   width: 100%;
   height: 14%;
   font-family: "Open Sans", serif;
-  position: fixed;
+  position: sticky;
   top: 0;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 1);
   z-index: 10000;
@@ -126,10 +126,9 @@ body {
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   height: 4000px;
-  margin-top: 5%;
   background-color: rgb(15, 72, 101);
 
   .section-properties {
@@ -586,6 +585,7 @@ body {
     width: 80%;
   }
 }
+
 // Mobile
 @media (max-width: 829px) {
   .title-page p {
@@ -653,11 +653,6 @@ body {
     flex-direction: column;
     height: 15% !important;
   }
-
-  .title-properties h1 {
-    padding-block: 14% !important;
-  }
-
   .card {
     width: 70% !important;
     height: 30% !important;
