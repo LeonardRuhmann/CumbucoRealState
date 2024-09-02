@@ -85,12 +85,6 @@ export default function MainContent() {
               description={db.TB2515.description[lang]}
             />
             <Card
-              page_path={`/${db.TB2024.id}`}
-              imgUrl={db.TB2024.imgUrl}
-              price={db.TB2024.price}
-              description={db.TB2024.description[lang]}
-            />
-            <Card
               page_path={`/${db.TB3151.id}`}
               imgUrl={db.TB3151.imgUrl}
               price={db.TB3151.price}
@@ -106,7 +100,7 @@ export default function MainContent() {
               description={db.IC3200.description[lang]}
             />
           </div>
-          <SectionCard title={"Cauipe"} />
+          {/* <SectionCard title={"Cauipe"} />
           <div className="section-cards  section-cards-small">
             <Card
               page_path={`/${db.c1500.id}`}
@@ -114,7 +108,7 @@ export default function MainContent() {
               price={db.c1500.price}
               description={db.c1500.description[lang]}
             />
-          </div>
+          </div> */}
         </div>
         <div className="about-us" id="about-us-scroll">
           <div className="about-us-title">

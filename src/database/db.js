@@ -3,7 +3,7 @@ export default {
     id: "CV7500",
     name: "CV7500",
     imgUrl: "/image/CV7500/pool-beach.jpg",
-    price: "850.000",
+    price: "R$ 850.000",
     // Em BackgroundIMG é preciso passar o path da imagem com o "url", pois será enviado para
     // o arquivo CV7500 para renderizar no front
     BackgroundIMG: [
@@ -49,7 +49,7 @@ export default {
     id: "CJ1000",
     name: "CJ1000",
     imgUrl: "/image/CJ1000/pool-house-deck2-large.jpeg",
-    price: "850.000",
+    price: "€ 850.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
@@ -97,7 +97,7 @@ export default {
     id: "CV4400",
     name: "CV4400",
     imgUrl: "/image/CV4400/apartment.JPG",
-    price: "490.000",
+    price: "R$ 490.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
@@ -141,7 +141,7 @@ export default {
     id: "C1616",
     name: "C1616",
     imgUrl: "/image/C1616/pool-house.jpeg",
-    price: "1.600.000",
+    price: "R$ 1.600.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
@@ -177,7 +177,7 @@ export default {
     id: "C1617",
     name: "C1617",
     imgUrl: "/image/C1617.jpg",
-    price: "400.000",
+    price: "R$ 400.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
@@ -197,7 +197,7 @@ export default {
     id: "Cc1100",
     name: "Cc1100",
     imgUrl: "/image/Cc1100/balcony-pool-beach-large.jpeg",
-    price: "1.200.000",
+    price: "R$ 1.200.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
@@ -233,7 +233,7 @@ export default {
     id: "C4278",
     name: "C4278",
     imgUrl: "/image/C4278.jpg",
-    price: "6.053.000",
+    price: "R$ 6.053.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
@@ -253,7 +253,7 @@ export default {
     id: "CB2030",
     name: "CB2030",
     imgUrl: "/image/CB2030/Penthouse and Cumbuco Beach Apartments 046.jpg",
-    price: "500.000",
+    price: "R$ 500.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
@@ -314,7 +314,7 @@ export default {
     id: "CB1000",
     name: "CB1000",
     imgUrl: "/image/CB1000/house.jpeg",
-    price: "1.000.000",
+    price: "R$ 1.000.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
@@ -358,7 +358,7 @@ export default {
     id: "TB2515",
     name: "TB2515",
     imgUrl: "/image/TB2515/pool.jpg",
-    price: "180.000",
+    price: "R$ 180.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
@@ -418,7 +418,7 @@ export default {
     id: "TB2024",
     name: "TB2024",
     imgUrl: "/image/TB2024/house.jpeg",
-    price: "2.000.000",
+    price: "R$ 2.000.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
@@ -494,7 +494,7 @@ export default {
     id: "TB3151",
     name: "TB3151",
     imgUrl: "/image/TB3151/pool-apartment.jpeg",
-    price: "220.000",
+    price: "R$ 220.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
@@ -530,7 +530,7 @@ export default {
     id: "IC3200",
     name: "IC3200",
     imgUrl: "/image/IC3200/pool.jpeg",
-    price: "340.000",
+    price: "R$ 340.000",
     BackgroundIMG: [
       {
         // topleft is 350x261
@@ -591,7 +591,7 @@ export default {
 
     name: "c1500",
     imgUrl: "/image/c1500.jpg",
-    price: "1.500.000",
+    price: "R$ 1.500.000",
     BackgroundIMG: [
       {
         // topleft is 350x261

@@ -19,7 +19,7 @@ export default function Card({ page_path, imgUrl, price, description }: Props) {
             <img src={imgUrl} alt="" />
           </div>
           <div className="box-price">
-            {lang === "pt" ? <p>Preço: R${price}</p> : <p>Price: R${price}</p>}
+            {lang === "pt" ? <p>Preço: {price}</p> : <p>Price: {price}</p>}
           </div>
           <div className="box-description">
             <p>{description}</p>
